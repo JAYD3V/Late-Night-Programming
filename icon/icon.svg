@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" id="SVGRoot" inkscape:version="1.2 (dc2aedaf03, 2022-05-15)" sodipodi:docname="nocturnal.icon.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title id="title42">Icon, XXXL</title>
+  <sodipodi:namedview id="namedview7" pagecolor="#444444" bordercolor="#000000" borderopacity="1" inkscape:showpageshadow="true" inkscape:pageopacity="0" inkscape:pagecheckerboard="false" inkscape:deskcolor="#252220" inkscape:document-units="px" showgrid="true" inkscape:zoom="1.566406" inkscape:cx="192.798" inkscape:cy="239.4015" inkscape:window-width="1920" inkscape:window-height="1011" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="layer1" inkscape:lockguides="true" guidecolor="#775533" guideopacity="0.8" guidehicolor="#ff44ff" guidehiopacity="0.8" showguides="true">
+    <inkscape:grid type="xygrid" id="grid287" color="#0088ff" opacity="0.0666667" spacingx="32" spacingy="32" empcolor="#400000" empopacity="0.4666667" empspacing="32" originx="0" originy="0" />
+    <sodipodi:guide position="0,512" orientation="0,512" id="guide358" inkscape:locked="true" />
+    <sodipodi:guide position="512,512" orientation="512,0" id="guide360" inkscape:locked="true" />
+    <sodipodi:guide position="512,0" orientation="0,-512" id="guide362" inkscape:locked="true" />
+    <sodipodi:guide position="0,0" orientation="-512,0" id="guide364" inkscape:locked="true" />
+  </sodipodi:namedview>
+  <defs id="defs2">
+    <rect x="119.5121" y="82.69832" width="313.9194" height="248.9844" id="rect18702" />
+    <rect x="132.3781" y="80.19309" width="248.421" height="121.8654" id="rect12115" />
+    <rect x="-2816" y="-2560" width="6912" height="3840" id="rect283" />
+    <rect x="-278.5382" y="-441.8208" width="824.7827" height="126.8451" id="rect254" />
+    <filter inkscape:collect="always" style="color-interpolation-filters:sRGB" id="filter12135" x="-0.03907052" y="-0.2062488" width="1.078141" height="1.412498">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="3.390598" id="feGaussianBlur12137" />
+    </filter>
+    <filter inkscape:collect="always" style="color-interpolation-filters:sRGB" id="filter12135-7" x="-0.03619969" y="-0.2360623" width="1.072399" height="1.472125">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="4.061401" id="feGaussianBlur12137-9" />
+    </filter>
+  </defs>
+  <metadata id="metadata34">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Andrew J Chambers Jr. (aka JAYD3V)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:title>Icon, XXXL</dc:title>
+        <dc:date>2022</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="Legos Pile" />
+  <g inkscape:groupmode="layer" id="layer1" inkscape:label="Icon">
+    <text xml:space="preserve" id="text281" style="font-size:24px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';font-feature-settings:'ss01';white-space:pre;shape-inside:url(#rect283);fill:#000000;stroke-width:0.00000007"><tspan x="-2816" y="-2313.781" id="tspan21514"><tspan style="font-size:266.667px;-inkscape-font-specification:'Cascadia Code, @wght=600';font-variation-settings:'wght' 600" id="tspan21512">          </tspan></tspan></text>
+    <circle style="fill:#000000;stroke:#000000;stroke-width:0" id="path4997" cx="256" cy="256" r="256" />
+    <text xml:space="preserve" id="text12113" style="font-weight:600;font-size:24px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code Semi-Bold';font-feature-settings:'ss01';white-space:pre;shape-inside:url(#rect12115);fill:#002c3c;stroke:#000000;stroke-width:0" />
+    <g id="g20740" transform="matrix(1.2779,0,0,1.2779,-71.14242,-121.2848)">
+      <text xml:space="preserve" style="font-size:60px;font-family:Megrim;-inkscape-font-specification:'Megrim, Normal';fill:#ff0044;stroke:#ff0044;stroke-width:6;filter:url(#filter12135)" x="253.63" y="271" id="text19484-4"><tspan sodipodi:role="line" x="253.63" y="271" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1811">Late Night</tspan><tspan sodipodi:role="line" x="253.63" y="346" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1770-1" /></text>
+      <text xml:space="preserve" style="font-size:60px;font-family:Megrim;-inkscape-font-specification:'Megrim, Normal';fill:#ff0044;stroke:#ff0044;stroke-width:3" x="253.63" y="271" id="text19484-4-7"><tspan sodipodi:role="line" x="253.63" y="271" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1811-8">Late Night</tspan><tspan sodipodi:role="line" x="253.63" y="346" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1770-1-9" /></text>
+      <text xml:space="preserve" style="font-size:60px;font-family:Megrim;-inkscape-font-specification:'Megrim, Normal';fill:#ff70a2;stroke-width:0" x="253.63" y="271" id="text19484-4-3"><tspan sodipodi:role="line" x="253.63" y="271" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan18531">Late Night</tspan><tspan sodipodi:role="line" x="253.63" y="346" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1770-1-1" /></text>
+      <text xml:space="preserve" style="font-size:60px;font-family:Megrim;-inkscape-font-specification:'Megrim, Normal';fill:#ff0044;stroke:#ff0044;stroke-width:6;filter:url(#filter12135-7)" x="255.13" y="349.4763" id="text19484-4-78"><tspan sodipodi:role="line" x="255.13" y="349.4763" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1811-7">Programming</tspan><tspan sodipodi:role="line" x="255.13" y="424.4763" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1770-1-4" /></text>
+      <text xml:space="preserve" style="font-size:60px;font-family:Megrim;-inkscape-font-specification:'Megrim, Normal';fill:#ff0044;stroke:#ff0044;stroke-width:3" x="255.13" y="349.4763" id="text19484-4-7-1"><tspan sodipodi:role="line" x="255.13" y="349.4763" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1811-8-9">Programming</tspan><tspan sodipodi:role="line" x="255.13" y="424.4763" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1770-1-9-0" /></text>
+      <text xml:space="preserve" style="font-size:60px;font-family:Megrim;-inkscape-font-specification:'Megrim, Normal';fill:#ff70a2;stroke-width:0" x="255.13" y="349.4763" id="text19484-4-3-9"><tspan sodipodi:role="line" x="255.13" y="349.4763" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1811-0-8">Programming</tspan><tspan sodipodi:role="line" x="255.13" y="424.4763" style="-inkscape-font-specification:'Megrim, Normal';text-anchor:middle" id="tspan1770-1-1-8" /></text>
+    </g>
+  </g>
+</svg>
