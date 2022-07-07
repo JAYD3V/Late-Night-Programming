@@ -4,7 +4,7 @@
    "description": "Dark Theme for VS Code",
    "version": "0.0.2",
    "publisher": "jayd3v",
-   "icon": "./icon/icon.png",
+   "icon": "icon/icon.png",
    "repository": {
       "type": "git",
       "url": "https://www.github.com/JAYD3V/Late-Night-Programming"
@@ -28,7 +28,7 @@
          "id": "nocturnal-vscode-theme",
          "label": "Theme: Nocturnal",
          "uiTheme": "vs-dark",
-         "path": "./theme/nocturnal-vscode-theme.json"
+         "path": "theme/nocturnal-vscode-theme.json"
    }]},
    "devDependencies": {
       "vsce": "^2.9.2",
