@@ -1,7 +1,7 @@
 {
    "$schema": "vscode://schemas/color-theme",
    "type": "dark",
-   "semanticHighlighting": true,
+   "semanticHighlighting": false,
    "colors": {
       /*
 
@@ -124,7 +124,7 @@
 
        */
       "panelSectionHeader.background": "#00000000",
-      "editor.background": "#13161C",
+
       "editorWidget.foreground": "#D2D0B8",
       "menu.foreground": "#DDDDDD",
 
@@ -159,12 +159,13 @@
       *------------------------------------------------------------------------**/
       "sideBarSectionHeader.border": "#205880",
       "panelSectionHeader.border": "#205880",
-      "tab.border": "#00244C",
-      "editorGroupHeader.tabsBorder": "#00244C",
-      "editorWidget.border": "#00244C",
-      "menu.separatorBackground": "#00244C",
-      "menu.border": "#00244C",
-      "editorHoverWidget.border": "#00244C",
+      "tab.border": "#082C4A",
+      "editorGroupHeader.tabsBorder": "#082C4A",
+      "editorWidget.border": "#082C4A",
+      "menu.separatorBackground": "#082C4A",
+      "menu.border": "#082C4A",
+      "editorIndentGuide.background": "#082C4A",
+      "editorHoverWidget.border": "#082C4A",
       "keybindingLabel.border": "#205880",
       "statusBar.border": "#205880",
       "peekView.border": "#205880",
@@ -232,29 +233,29 @@
                              BACKGROUND, PRIMARY WORKBENCH
                                 (R:006 G:020 B:038 @15)
       *------------------------------------------------------------------------**/
-      "textBlockQuote.background": "#071424AA",
-      "editorMarkerNavigation.background": "#071424",
-      "welcomePage.tileBackground": "#071424",
-      "panel.background": "#071424",
-      "activityBar.background": "#071424",
-      "tab.activeBorder": "#071424",
-      "tab.unfocusedActiveBorder": "#071424",
-      "editorWidget.background": "#071424",
-      "menu.background": "#071424",
-      "tab.activeBackground": "#071424",
-      "breadcrumb.background": "#071424",
+      "textBlockQuote.background": "#061728AA",
+      "editorMarkerNavigation.background": "#061728",
+      "welcomePage.tileBackground": "#061728",
+      "panel.background": "#061728",
+      "activityBar.background": "#061728",
+      "tab.activeBorder": "#061728",
+      "tab.unfocusedActiveBorder": "#061728",
+      "editorWidget.background": "#061728",
+      "menu.background": "#061728",
+      "tab.activeBackground": "#061728",
+      "breadcrumb.background": "#061728",
       /*
 
       *------------------------------------------------------------------------*
                            WORKBENCH'S EMPHASIZED BACKGROUND
                                    (R2 G42 B90 *35)
       *--------------------=---------------------------------------------------**/
-      "badge.background": "#022A5A",
-      "activityBarBadge.background": "#022A5A",
-      "extensionBadge.remoteBackground": "#022A5A",
-      "statusBar.background": "#022A5A",
-      "welcomePage.progress.background": "#022A5A",
-      "keybindingLabel.background": "#022A5A",
+      "badge.background": "#052A5A",
+      "activityBarBadge.background": "#052A5A",
+      "extensionBadge.remoteBackground": "#052A5A",
+      "statusBar.background": "#052A5A",
+      "welcomePage.progress.background": "#052A5A",
+      "keybindingLabel.background": "#052A5A",
 
       /*
 
@@ -263,17 +264,19 @@
                           WORKBENCH'S DEEMPHASIZED BACKGROUND
                                     2058800)
       *-----------------------------------------------------------------------**/
-      "tab.inactiveBackground": "#0F0F0F",
-      "editorGroupHeader.noTabsBackground": "#0F0F0F",
-      "editorGroupHeader.tabsBackground": "#0F0F0F",
+
       /*
 
 
       *------------------------------------------------------------------------*
                            WORKBENCH'S SECONDARY BACKGROUND
       *------------------------------------------------------------------------**/
-      "sideBar.background": "#13161C",
-      "editorIndentGuide.background": "#333333",
+      "editor.background": "#0F141E",
+      "editorOverviewRuler.background": "#0F141E",
+      "tab.inactiveBackground": "#0F141E",
+      "editorGroupHeader.noTabsBackground": "#0F141E",
+      "editorGroupHeader.tabsBackground": "#0F141E",
+      "sideBar.background": "#0F141E",
       "editorIndentGuide.activeBackground": "#777777",
       /*
 
@@ -395,10 +398,10 @@
       /*
 
 
-      *------------------------------------------------------------------------F*
+      *-----------------------------------------------------------------*
                              STATIC ICON FOREGROUND COLOR
                                       (#FF005A)
-      *------------------------------------------------------------------------**/
+      *-----------------------------------------------------------------**/
       "tree.indentGuidesStroke": "#FF005A",
       "list.inactiveSelectionIconForeground": "#FF005A",
       "icon.foreground": "#FF005A",
@@ -458,10 +461,10 @@
 
 
 
-      *------------------------------------------------------------------------*
+      *----------------------------------------------------------*
                                    WORKBENCH STYLING
                (activityBar bg, tagGroup bg, inactive tab bg & panels bg)
-      *------------------------------------------------------------------------**/
+      *----------------------------------------------------------**/
       // Activity-bar's Style
       "activityBar.foreground": "#EEEEEE",
       /*
@@ -546,7 +549,7 @@
       "editorOverviewRuler.incomingContentForeground": "#ff0000",
       "editorOverviewRuler.commonContentForeground": "#ff0000",
       "editorOverviewRuler.currentContentForeground": "#ff0000",
-      "editorOverviewRuler.background": "#111111",
+
       "editorOverviewRuler.wordHighlightForeground": "#77CCDD",
       "editorOverviewRuler.findMatchForeground": "#66EE22", // ~ unique
       "editorOverviewRuler.bracketMatchForeground": "#80FF80",
@@ -774,74 +777,59 @@
 
 
 
-EEEEEEEEE
 
 
 
 
 
-   <=======================================================================>
 
-                        TOKENS GENERATED FROM TM-GRAMMAR
 
-   <=======================================================================>
 
-   SYNTAX HIGHLIGHTING COLOR PALETTE:
-      Color: #BBBEC5
-      Syntax:
-         1. Primitive & Dynamic Variable names (i.e. Such as foo in `int foo` & bar
-                                                in `var bar`, & ean in `bool ean`)
-         2. Punctuation marks that define scope (i.e. brackets that define elements in markup, and types in code, parenthesis that define there own)
+  ||========================================================================||
+  ||"SAVE THESE PROPERTIES UNTIL THEY ARE STYLED IN THE "tokenColors" ARRAY"||
+  ||==|| "punctuation.definition.directive",                      ||========||
+      || "punctuation.definition.template-expression",            ||
+      || "meta.preprocessor.include punctuation.definition.string"||
+      ||==========================================================||
 
-      String Literals   >>-->  #F5A580
-      Comments          >>-->  #447799
-         foobar   >>-->  #000000
-         foobar   >>-->  #000000
-         foobar   >>-->  #000000
-         foobar   >>-->  #000000
-         foobar   >>-->  #000000
 
-*/
 
+   *---------------------------------------------------------------------------*
+                                SYNTAX HIGHLIGHTING
+   *---------------------------------------------------------------------------**/
    "tokenColors": [
       {
          "name": "DEFAULT/FALLBACK, PUNCTUATION/BRACES",
          "scope": ["source", "text", "punctuation", "meta.brace"],
          "settings": { "foreground": "#BBBBBB" }
       },
+
       {
          "name": "LEXER/PARSER PUNCTUATION-MARKS",
          "scope": ["punctuation", "meta.brace"],
          "settings": { "foreground": "#AAAAAA" }
       },
+
+      {
+         "name": "SPECIALIZED PUNCTUATION",
+         "scope": [],
+         "settings": {
+            "foreground": "#7799FF"
+         }
+      },
+
       {
          "name": "COMMENT",
          "scope": ["comment", "punctuation.definition.comment"],
          "settings": { "foreground": "#FFFFFF68" }
       },
+
       {
-         "name": "ANNOTATIONS",
-         "scope": [
-            "support.type.primitive",
-            "entity.name.type.alias",
-         ],
+         "scope": ["keyword", "storage"],
          "settings": {
-            "foreground": "#009988",
-            "fontStyle": "italic"
+            "foreground": "#0099BB"
          }
       },
-
-		{
-			"scope": [
-				"keyword",
-				"storage",
-			],
-			"settings": {
-				"foreground": "#22A5D0",
-				"fontStyle": "bold"
-			}
-		},
-
 
       {
          "name": "STRING LITERAL & STRING TEMPLATE",
@@ -853,98 +841,89 @@ EEEEEEEEE
             "punctuation.definition.string"
          ],
          "settings": {
-            "foreground": "#559922"
+            "foreground": "#80C2E2"
          }
       },
       {
-         "name": "CONSTANTS",
+         "name": "NUMERIC LITERALS",
+         "scope": "constant.numeric",
+         "settings": {
+            "foreground": "#EE9922",
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "LITERALS: BOOLEAN, UNDEFINED, NULL & NaN",
          "scope": [
+            "constant.language.boolean",
             "constant.language.undefined",
             "constant.language.null",
-            "constant.language.nan",
-            "constant.character"
+            "constant.language.nan"
          ],
          "settings": {
-            "foreground": "#BB3828"
+            "foreground": "#DD5533"
          }
       },
 
       {
-         "name": "NUMERIC LITERALS",
-         "scope": ["constant.numeric"],
-         "settings": {
-            "foreground": "#CC80BB"
-         }
-      },
-      {
          "name": "LANGUAGE DEFINED VALUES/CONSTANTS/VARIABLES",
          "scope": [
-            "constant.language",
-            "variable.language"
+            /* "constant.language" */
          ],
-         "settings": {
-            "foreground": "#AA99EE",
-            "fontStyle": "italic"
-         }
+         "settings": { "foreground": "#AA99EE" }
       },
 
       {
          "name": "PARAMETERS",
          "scope": "meta.parameters variable.parameter",
+         "settings": { "foreground": "#CCBB77" }
+      },
+
+      {
+         "name": "FUNCTIONS & METHODS",
+         "scope": [
+            "meta.definition.function entity.name.function",
+            "meta.definition.method entity.name.function"
+         ],
          "settings": {
-            "foreground": "#C4AA55"
+            "foreground": "#80C050"
          }
       },
 
       {
-         "name": "CLASS FIELDS",
+         "name": "CLASS, TYPES, & NAMESPACES",
+         "scope": [
+            "meta.definition.function entity.name.function",
+            "meta.definition.method entity.name.function",
+            "meta.class entity.name.type.class",
+            "meta.entity.name.type.namespace",
+            "meta.entity.name.type.interface",
+            "entity.name.type.namespace",
+            "entity.name.type.module",
+         ],
+
+         "settings": { "foreground": "#80C050" }
+      },
+
+      {
+         "name": "CLASS-MEMBERS & OBJECT-MEMBERS" /* aka properties & keys */,
          "scope": ["meta.class meta.field", "meta.interface meta.field"],
-         "settings": {
-            "foreground": "#DD8088",
-            "fontStyle": ""
-         }
+         "settings": { "foreground": "#DD88BB" }
       },
 
-
-		{
-			"scope": "entity.name.function",
-			"settings": {
-				"foreground": "#EE7EBE",
-				"fontStyle": ""
-			}
-		},
       {
-         // All entities that are not a function, a variable, or a literal value
-         "name": "CLASS, STRUCT, INTERFACE, TYPE",
-         "scope": [
-            "entity.name.class",
-            "entity.name.type"
-         ],
-         "settings": {
-            "foreground": "#CC8855",
-            "fontStyle": ""
-         }
+         "name": "PRIMITIVE TYPES & ALIASES",
+         "scope": ["support.type.primitive", "entity.name.type.alias"],
+         "settings": { "foreground": "#227766" }
+      },
+
+      {
+         "name": "PRIMITIVE TYPES",
+         "scope": ["entity.name.type.alias"],
+         "settings": { "foreground": "#227766" }
       },
       /*
 
-
-
-      *------------------------------------------------------------------------*
-                           SPECIALIZED GENERIC HIGHLIGHTING
-      *------------------------------------------------------------------------**/
-      {
-         "name": "SPECIALIZED PUNCTUATION",
-         "scope": [
-            "punctuation.definition.template-expression",
-            "punctuation.definition.directive",
-            "meta.preprocessor.include punctuation.definition.string"
-         ],
-         "settings": {
-            "foreground": "#7799FF",
-            "fontStyle": "bold"
-         }
-      },
-      /*
 
 
       *------------------------------------------------------------------------*
@@ -958,6 +937,7 @@ EEEEEEEEE
          ],
          "settings": { "foreground": "#44AAFF" }
       },
+
       {
          "name": "LANGUAGE | SYNTAX_TYPE",
          "scope": [
@@ -974,26 +954,27 @@ EEEEEEEEE
                                 FONT-STYLE UNIFICATION
       *------------------------------------------------------------------------*	*/
       {
-         /*
-         this, instanceof, return, get, set, async, await,
-         undefined, null, NaN, readonly, static, typeof, new */
-         "name": "ITALICIZED SYNTAX",
+         "name": "ITALIC",
          "scope": [
-            /* "meta.parameters variable.parameter", */
-            "keyword.operator.expression",
-            "keyword.control.flow",
+            "variable.language",
+            "constant.language",
+            "support.type.primitive",
             "storage.type.property",
             "storage.modifier",
-            "constant.language.undefined",
-            "constant.language.null",
-            "constant.language.nan",
-            "variable.language.this"
+            "keyword.operator.expression",
+            "keyword.control.flow"
          ],
          "settings": { "fontStyle": "italic" }
       },
 
       {
-         "name": "EMBOLDENED & ITALICIZED",
+         "name": "BOLD",
+         "scope": ["constant.numeric", "entity.name.type.class"],
+         "settings": { "fontStyle": "bold" }
+      },
+
+      {
+         "name": "ITALIC & BOLD",
          // import, export, from, as, ...
          "scope": [
             "keyword.control.import",
