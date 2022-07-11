@@ -233,17 +233,17 @@
                              BACKGROUND, PRIMARY WORKBENCH
                                 (R:006 G:020 B:038 @15)
       *------------------------------------------------------------------------**/
-      "textBlockQuote.background": "#061728AA",
-      "editorMarkerNavigation.background": "#061728",
-      "welcomePage.tileBackground": "#061728",
-      "panel.background": "#061728",
-      "activityBar.background": "#061728",
-      "tab.activeBorder": "#061728",
-      "tab.unfocusedActiveBorder": "#061728",
-      "editorWidget.background": "#061728",
-      "menu.background": "#061728",
-      "tab.activeBackground": "#061728",
-      "breadcrumb.background": "#061728",
+      "textBlockQuote.background": "#071528AA",
+      "editorMarkerNavigation.background": "#071528",
+      "welcomePage.tileBackground": "#071528",
+      "panel.background": "#071528",
+      "activityBar.background": "#071528",
+      "tab.activeBorder": "#071528",
+      "tab.unfocusedActiveBorder": "#071528",
+      "editorWidget.background": "#071528",
+      "menu.background": "#071528",
+      "tab.activeBackground": "#071528",
+      "breadcrumb.background": "#071528",
       /*
 
       *------------------------------------------------------------------------*
@@ -405,39 +405,40 @@
       "tree.indentGuidesStroke": "#FF005A",
       "list.inactiveSelectionIconForeground": "#FF005A",
       "icon.foreground": "#FF005A",
-      "symbolIcon.arrayForeground": "#FF005A",
-      "symbolIcon.constantForeground": "#FF005A",
-      "symbolIcon.stringForeground": "#FF005A",
-      "symbolIcon.textForeground": "#FF005A",
-      "symbolIcon.classForeground": "#FF005A",
-      "symbolIcon.interfaceForeground": "#FF005A",
-      "symbolIcon.keyForeground": "#FF005A",
-      "symbolIcon.namespaceForeground": "#FF005A",
-      "symbolIcon.objectForeground": "#FF005A",
-      "symbolIcon.referenceForeground": "#FF005A",
-      "symbolIcon.structForeground": "#FF005A",
-      "symbolIcon.constructorForeground": "#FF005A",
-      "symbolIcon.eventForeground": "#FF005A",
-      "symbolIcon.fieldForeground": "#FF005A",
-      "symbolIcon.functionForeground": "#FF005A",
-      "symbolIcon.methodForeground": "#FF005A",
-      "symbolIcon.moduleForeground": "#FF005A",
-      "symbolIcon.propertyForeground": "#FF005A",
-      "symbolIcon.booleanForeground": "#FF005A",
-      "symbolIcon.colorForeground": "#FF005A",
-      "symbolIcon.enumeratorForeground": "#FF005A",
-      "symbolIcon.enumeratorMemberForeground": "#FF005A",
-      "symbolIcon.fileForeground": "#FF005A",
-      "symbolIcon.folderForeground": "#FF005A",
-      "symbolIcon.keywordForeground": "#FF005A",
-      "symbolIcon.nullForeground": "#FF005A",
-      "symbolIcon.numberForeground": "#FF005A",
-      "symbolIcon.operatorForeground": "#FF005A",
-      "symbolIcon.packageForeground": "#FF005A",
-      "symbolIcon.typeParameterForeground": "#FF005A",
-      "symbolIcon.unitForeground": "#FF005A",
-      "symbolIcon.variableForeground": "#FF005A",
-      "symbolIcon.snippetForeground": "#FF005A",
+
+      "symbolIcon.arrayForeground": "#DDCC33",
+      "symbolIcon.textForeground": "#88EEFF",
+      "symbolIcon.stringForeground": "#88EEFF",
+      "symbolIcon.colorForeground": "#88EEFF",
+      "symbolIcon.classForeground": "#AAFF55",
+      "symbolIcon.functionForeground": "#AAFF55",
+      "symbolIcon.structForeground": "#AAFF55",
+      "symbolIcon.constructorForeground": "#AAFF55",
+      "symbolIcon.methodForeground": "#AAFF55",
+      "symbolIcon.interfaceForeground": "#DDCC33",
+      "symbolIcon.keyForeground": "#DDCC33",
+      "symbolIcon.namespaceForeground": "#DDCC33",
+      "symbolIcon.objectForeground": "#DDCC33",
+      "symbolIcon.referenceForeground": "#DDCC33",
+      "symbolIcon.eventForeground": "#DDCC33",
+      "symbolIcon.moduleForeground": "#DDCC33",
+      "symbolIcon.fieldForeground": "#FF99BB",
+      "symbolIcon.propertyForeground": "#FF99BB",
+      "symbolIcon.booleanForeground": "#FF3311",
+      "symbolIcon.constantForeground": "#FF3311",
+      "symbolIcon.nullForeground": "#FF3311",
+      "symbolIcon.enumeratorForeground": "#DDCC33",
+      "symbolIcon.enumeratorMemberForeground": "#DDCC33",
+      "symbolIcon.fileForeground": "#DDCC33",
+      "symbolIcon.folderForeground": "#DDCC33",
+      "symbolIcon.keywordForeground": "#11CCFF",
+      "symbolIcon.numberForeground": "#DDCC33",
+      "symbolIcon.operatorForeground": "#DDCC33",
+      "symbolIcon.packageForeground": "#DDCC33",
+      "symbolIcon.typeParameterForeground": "#DDCC33",
+      "symbolIcon.variableForeground": "#FFFFFF",
+      "symbolIcon.unitForeground": "#DDCC33",
+      "symbolIcon.snippetForeground": "#DDCC33",
       "terminalOverviewRuler.cursorForeground": "#FF005A",
       "terminalCursor.background": "#FF005A",
       "editorCursor.background": "#FF005A",
@@ -847,10 +848,7 @@
       {
          "name": "NUMERIC LITERALS",
          "scope": "constant.numeric",
-         "settings": {
-            "foreground": "#EE9922",
-            "fontStyle": "bold"
-         }
+         "settings": { "foreground": "#EE9922" }
       },
       {
          "name": "LITERALS: BOOLEAN, UNDEFINED, NULL & NaN",
@@ -860,9 +858,7 @@
             "constant.language.null",
             "constant.language.nan"
          ],
-         "settings": {
-            "foreground": "#DD5533"
-         }
+         "settings": { "foreground": "#DD5533" }
       },
 
       {
@@ -877,17 +873,12 @@
          "name": "PARAMETERS",
          "scope": "meta.parameters variable.parameter",
          "settings": { "foreground": "#CCBB77" }
-      },
+      }, //variable.language
 
       {
          "name": "FUNCTIONS & METHODS",
-         "scope": [
-            "meta.definition.function entity.name.function",
-            "meta.definition.method entity.name.function"
-         ],
-         "settings": {
-            "foreground": "#80C050"
-         }
+         "scope": "meta.definition entity.name.function",
+         "settings": { "foreground": "#80C050" }
       },
 
       {
@@ -899,7 +890,7 @@
             "meta.entity.name.type.namespace",
             "meta.entity.name.type.interface",
             "entity.name.type.namespace",
-            "entity.name.type.module",
+            "entity.name.type.module"
          ],
 
          "settings": { "foreground": "#80C050" }
@@ -912,15 +903,18 @@
       },
 
       {
-         "name": "PRIMITIVE TYPES & ALIASES",
-         "scope": ["support.type.primitive", "entity.name.type.alias"],
-         "settings": { "foreground": "#227766" }
+         "name": "PRIMITIVE TYPES, ANNOTATIONS, INLINE DOCUMENTATION",
+         "scope": [
+            "support.type.primitive",
+            "comment.block.documentation storage.type.class"
+         ],
+         "settings": { "foreground": "#0070B8" }
       },
 
       {
          "name": "PRIMITIVE TYPES",
-         "scope": ["entity.name.type.alias"],
-         "settings": { "foreground": "#227766" }
+         "scope": "entity.name.type.alias",
+         "settings": { "foreground": "#30A0A0" }
       },
       /*
 
@@ -964,6 +958,7 @@
             "keyword.operator.expression",
             "keyword.control.flow"
          ],
+
          "settings": { "fontStyle": "italic" }
       },
 
@@ -1000,10 +995,5 @@
             "foreground": "#FF3322"
          }
       }
-   ],
-   /*
-
-
-   SEMANTIC TOKENS */
-   "semanticTokenColors": {}
+   ]
 }
