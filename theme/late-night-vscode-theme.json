@@ -271,12 +271,12 @@
       *------------------------------------------------------------------------*
                            WORKBENCH'S SECONDARY BACKGROUND
       *------------------------------------------------------------------------**/
-      "editor.background": "#0F141E",
-      "editorOverviewRuler.background": "#0F141E",
-      "tab.inactiveBackground": "#0F141E",
-      "editorGroupHeader.noTabsBackground": "#0F141E",
-      "editorGroupHeader.tabsBackground": "#0F141E",
-      "sideBar.background": "#0F141E",
+      "editor.background": "#0D131A",
+      "editorOverviewRuler.background": "#0D131A",
+      "tab.inactiveBackground": "#0D131A",
+      "editorGroupHeader.noTabsBackground": "#0D131A",
+      "editorGroupHeader.tabsBackground": "#0D131A",
+      "sideBar.background": "#0D131A",
       "editorIndentGuide.activeBackground": "#777777",
       /*
 
@@ -538,8 +538,7 @@
 
 
 
-      *-----------------------------------------------------------------------*
-      	                           OVERVIEW RULER
+      *-----------------------------------------------------------------------*                             OVERVIEW RULER
       *-----------------------------------^-----------------------------------* */
 
       // SCM
@@ -800,40 +799,50 @@
    *---------------------------------------------------------------------------**/
    "tokenColors": [
       {
-         "name": "DEFAULT/FALLBACK, PUNCTUATION/BRACES",
+         "name": "GENERIC: PUNCTUATION & BRACES",
          "scope": ["source", "text", "punctuation", "meta.brace"],
          "settings": { "foreground": "#BBBBBB" }
       },
 
       {
-         "name": "LEXER/PARSER PUNCTUATION-MARKS",
-         "scope": ["punctuation", "meta.brace"],
-         "settings": { "foreground": "#AAAAAA" }
-      },
-
-      {
-         "name": "SPECIALIZED PUNCTUATION",
-         "scope": [],
-         "settings": {
-            "foreground": "#7799FF"
-         }
-      },
-
-      {
-         "name": "COMMENT",
+         "name": "GENERIC: COMMENTS",
          "scope": ["comment", "punctuation.definition.comment"],
          "settings": { "foreground": "#FFFFFF68" }
       },
 
       {
+         "name": "GENERIC | ENTITY-KEYWORDS",
          "scope": ["keyword", "storage"],
          "settings": {
-            "foreground": "#0099BB"
+            "foreground": "#1AACCA"
          }
       },
 
       {
-         "name": "STRING LITERAL & STRING TEMPLATE",
+         "name": "GENERIC: OPERATORS",
+         "scope": ["keyword.operator", "storage.type.function.arrow"],
+         "settings": {
+            "foreground": "#0878C2",
+            "fontStyle": ""
+         }
+      },
+
+      {
+         "name": "GENERIC: OPERATOR: ACCESSOR",
+         "scope": [
+            "punctuation.accessor",
+            "keyword.operator.type.annotation",
+            "punctuation.separator.parameter",
+            "punctuation.definition.string"
+         ],
+         "settings": {
+            "foreground": "#0077FF",
+            "fontStyle": "bold"
+         }
+      },
+
+      {
+         "name": "GENERIC: STRING LITERAL & STRING TEMPLATE",
          "scope": [
             "string",
             "string.quoted",
@@ -846,14 +855,13 @@
          }
       },
       {
-         "name": "NUMERIC LITERALS",
-         "scope": "constant.numeric",
-         "settings": { "foreground": "#EE9922" }
+         "name": "GENERIC: NUMERIC LITERALS",
+         "scope": ["constant.numeric", "constant.language.boolean"],
+         "settings": { "foreground": "#DD4466" }
       },
       {
-         "name": "LITERALS: BOOLEAN, UNDEFINED, NULL & NaN",
+         "name": "GENERIC: LITERALS: BOOLEAN, UNDEFINED, NULL & NaN",
          "scope": [
-            "constant.language.boolean",
             "constant.language.undefined",
             "constant.language.null",
             "constant.language.nan"
@@ -862,96 +870,73 @@
       },
 
       {
-         "name": "LANGUAGE DEFINED VALUES/CONSTANTS/VARIABLES",
-         "scope": [
-            /* "constant.language" */
-         ],
-         "settings": { "foreground": "#AA99EE" }
+         "name": "GENERIC: VARIABLES: LANGUAGE DEFINED",
+         "scope": "variable.language",
+         "settings": { "foreground": "#22AA88" }
       },
 
       {
-         "name": "PARAMETERS",
+         "name": "GENERIC: PARAMETERS",
          "scope": "meta.parameters variable.parameter",
-         "settings": { "foreground": "#CCBB77" }
+         "settings": { "foreground": "#CABE4C" }
       }, //variable.language
 
       {
-         "name": "FUNCTIONS & METHODS",
-         "scope": "meta.definition entity.name.function",
-         "settings": { "foreground": "#80C050" }
-      },
-
-      {
-         "name": "CLASS, TYPES, & NAMESPACES",
+         "name": "GENERIC: FUNCTION, CLASS, NAMESPACE, & TYPE DECLARATIONS",
          "scope": [
             "meta.definition.function entity.name.function",
             "meta.definition.method entity.name.function",
-            "meta.class entity.name.type.class",
-            "meta.entity.name.type.namespace",
-            "meta.entity.name.type.interface",
+            "variable.other.object.declare",
+            "entity.name.type.class",
+            "entity.name.type.struct",
             "entity.name.type.namespace",
-            "entity.name.type.module"
+            "entity.name.type.interface",
+            "entity.name.type.namespace",
+            "entity.name.type.module",
+            "entity.name.namespace",
+            "entity.name.interface",
+            "entity.name.struct",
+            "entity.name.function"
          ],
 
-         "settings": { "foreground": "#80C050" }
+         "settings": { "foreground": "#54B450" }
       },
 
       {
-         "name": "CLASS-MEMBERS & OBJECT-MEMBERS" /* aka properties & keys */,
+         "name": "GENERIC: CLASS-MEMBERS & OBJECT-MEMBERS" /* aka properties & keys */,
          "scope": ["meta.class meta.field", "meta.interface meta.field"],
          "settings": { "foreground": "#DD88BB" }
       },
 
       {
-         "name": "PRIMITIVE TYPES, ANNOTATIONS, INLINE DOCUMENTATION",
+         "name": "GENERIC: PRIMITIVE TYPES, ANNOTATIONS, INLINE DOCUMENTATION",
          "scope": [
             "support.type.primitive",
             "comment.block.documentation storage.type.class"
          ],
-         "settings": { "foreground": "#0070B8" }
+         "settings": { "foreground": "#0878C2" }
       },
 
       {
-         "name": "PRIMITIVE TYPES",
+         "name": "GENERIC: PRIMITIVE TYPES",
          "scope": "entity.name.type.alias",
          "settings": { "foreground": "#30A0A0" }
       },
-      /*
 
-
-
-      *------------------------------------------------------------------------*
-                              JAVASCRIPT OBJECT NOTATION
-      *------------------------------------------------------------------------*	*/
       {
-         "name": "JSON | PROPERTY KEYS",
+         "name": "GENERIC: GENERIC | ",
          "scope": [
-            "source.json punctuation.support.type.property-name",
-            "source.json support.type.property-name.json"
+            "keyword.operator",
+            "entity.name.type.class"
+            /* "constant.numeric" */
          ],
-         "settings": { "foreground": "#44AAFF" }
+         "settings": { "fontStyle": "bold" }
       },
 
       {
-         "name": "LANGUAGE | SYNTAX_TYPE",
-         "scope": [
-            "string.quoted.double.json",
-            "source.json punctuation.definition.string"
-         ],
-         "settings": { "foreground": "#BBBBBB" }
-      },
-      /*
-
-
-
-      *------------------------------------------------------------------------*
-                                FONT-STYLE UNIFICATION
-      *------------------------------------------------------------------------*	*/
-      {
-         "name": "ITALIC",
+         "name": "GENERIC: ITALICIZE",
          "scope": [
             "variable.language",
-            "constant.language",
             "support.type.primitive",
             "storage.type.property",
             "storage.modifier",
@@ -963,21 +948,42 @@
       },
 
       {
-         "name": "BOLD",
-         "scope": ["constant.numeric", "entity.name.type.class"],
-         "settings": { "fontStyle": "bold" }
-      },
-
-      {
-         "name": "ITALIC & BOLD",
+         "name": "GENERIC: ITALIC & BOLD",
          // import, export, from, as, ...
          "scope": [
             "keyword.control.import",
             "keyword.control.export",
             "keyword.control.from",
-            "keyword.control.as"
+            "keyword.control.as",
+            "keyword.operator.new",
+            "keyword.operator.expression",
+            "punctuation.definition.string"
          ],
          "settings": { "fontStyle": "bold italic" }
+      },
+         /*
+
+
+
+      *------------------------------------------------------------------------*
+                              JAVASCRIPT OBJECT NOTATION
+      *------------------------------------------------------------------------*	*/
+      {
+         "name": "GENERIC: JSON | PROPERTY KEYS",
+         "scope": [
+            "source.json punctuation.support.type.property-name",
+            "source.json support.type.property-name.json"
+         ],
+         "settings": { "foreground": "#44AAFF" }
+      },
+
+      {
+         "name": "GENERIC: LANGUAGE | SYNTAX_TYPE",
+         "scope": [
+            "string.quoted.double.json",
+            "source.json punctuation.definition.string"
+         ],
+         "settings": { "foreground": "#BBBBBB" }
       },
       /*
 
@@ -988,7 +994,7 @@
                                    MISCELLANEOUS
       *------------------------------------------------------------------------*	*/
       {
-         "name": "INVALID",
+         "name": "GENERIC: INVALID",
          "scope": "invalid",
          "settings": {
             "fontStyle": "strikethrough",
