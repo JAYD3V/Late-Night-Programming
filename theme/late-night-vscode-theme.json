@@ -754,18 +754,25 @@
       {
          "name": "COMMENTS",
          "scope":["comment"],
-         "settings": { "foreground": "#885850" }
+         "settings": { "foreground": "#907060" }
       },{
-         "name": "LITERAL: STRING",
+         "name": "LITERALS: STRING",
          "scope":["string"],
          "settings": { "foreground": "#DD88AA" }
       },{
-         /* Includes: `null`, `undefined`, & `NaN` */
-         "name": "LITERAL: BOOLEAN VALUES",
-         "scope":["constant.language"],
-         "settings": { "foreground": "#DD5555" }
+         "name": "LITERALS: BOOLEAN VALUES",
+         "scope":"constant.language.boolean",
+         "settings": { "foreground": "#DD705C"}
       },{
-         "name": "LITERAL: NUMERIC",
+         "name": "LITERALS: UNDEFINED, NULL, & NaN",
+         "scope":[
+            "constant.language.undefined",
+            "constant.language.null",
+            "constant.language.NaN" // NaN is case sensitive
+         ],
+         "settings": { "foreground": "#DD705C"}
+      },{
+         "name": "LITERALS: NUMERIC",
          "scope":["constant.numeric"],
          "settings": { "foreground": "#BBAA44" }
       },{
@@ -799,11 +806,11 @@
       },{
          "name": "VARIABLES: THIS (lexically-scoped object)",
          "scope":["variable.language.this"],
-         "settings": { "foreground": "#1CC1FF" }
+         "settings": { "foreground": "#1CC1FF", "fontStyle": "italic" }
       },{
          "name": "VARIABLES: PARAMETERS",
          "scope": "meta.parameters variable.parameter",
-         "settings": { "foreground": "#CC99FF" }
+         "settings": { "foreground": "#C4A0FF" }
       },{
          "name": "VARIABLES: CLASS-MEMBERS & OBJECT-MEMBERS",
          "scope": [
@@ -831,7 +838,7 @@
 		},{
          "name": "FUNCTIONS: ALL",
          "scope": "entity.name.function",
-         "settings": { "foreground": "#6CC85E" }
+         "settings": { "foreground": "#70C868" }
       },{
          "name": "PRIMITIVE TYPE ANNOTATIONS (TS)",
          "scope": ["support.type.primitive"],
