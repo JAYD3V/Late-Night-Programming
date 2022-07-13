@@ -25,10 +25,15 @@
    ],
    "contributes": {
       "themes": [{
+         "label": "Late Night",
          "id": "late-night",
-         "label": "THEME: Late Night Programming",
          "uiTheme": "vs-dark",
          "path": "./theme/late-night-vscode-theme.json"
+   },{
+      "label": "Nocturnal",
+      "id": "nocturnal",
+      "uiTheme": "vs-dark",
+      "path": "./theme/nocturnal-vscode-theme.json"
    }]},
    "devDependencies": {
       "vsce": "^2.9.2",

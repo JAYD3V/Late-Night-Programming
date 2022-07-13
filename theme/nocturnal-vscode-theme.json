@@ -18,7 +18,7 @@
                                CONFIGURABLE PROPERTIES
       *------------------------------------------------------------------------*/
       // ICONS
-      "icon.foreground": "#11DD44",
+      "icon.foreground": "#ff00ff",
       "tab.hoverForeground": "#08F277",
       "list.hoverForeground": "#08F277",
       "tab.unfocusedHoverForeground": "#08F277",
