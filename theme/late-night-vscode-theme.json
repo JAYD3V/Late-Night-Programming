@@ -18,7 +18,7 @@
                                CONFIGURABLE PROPERTIES
       *------------------------------------------------------------------------*/
       // ICONS
-      "icon.foreground": "#11DD44",
+      "icon.foreground": "#20DD50",
       "tab.hoverForeground": "#08F277",
       "list.hoverForeground": "#08F277",
       "tab.unfocusedHoverForeground": "#08F277",
@@ -27,19 +27,18 @@
       "statusBar.focusBorder": "#08F277CC",
       "statusBarItem.focusBorder": "#08F277CC",
       "extensionButton.prominentForeground": "#08F277",
-      "tree.indentGuidesStroke": "#11DD44",
-      "list.inactiveSelectionIconForeground": "#11DD44",
-      "editorGutter.foldingControlForeground": "#11DD44",
+      "tree.indentGuidesStroke": "#20DD50",
+      "list.inactiveSelectionIconForeground": "#20DD50",
+      "editorGutter.foldingControlForeground": "#20DD50",
       // CURSOR COLORS
-      "terminalCursor.foreground": "#11DD44",
-      "editorCursor.foreground": "#11DD44",
-      "terminalCursor.background": "#11DD44",
-      "editorCursor.background": "#11DD44",
+      "terminalCursor.foreground": "#20DD50",
+      "editorCursor.foreground": "#20DD50",
+      "terminalCursor.background": "#20DD50",
+      "editorCursor.background": "#20DD50",
       "terminalOverviewRuler.cursorForeground": "#00FF66",
       // SELECTION HIGHLIGHT
       "editor.selectionHighlightBorder": "#00FF3366",
       "editor.selectionHighlightBackground": "#00FF4422",
-
       /*-----------------------------------------------------------------------*
                              SPECIALIZED/UNIQUELY COLORED
       *-----------------------------------------------------------------------*/
@@ -56,11 +55,9 @@
       "editorCodeLens.foreground": "#009977",
       "editorUnnecessaryCode.opacity": "#B8B8B8B8", // Sets opacity, 'NOT' color!
       "editorUnicodeHighlight.border": "#881111",
-
       /*-----------------------------------------------------------------------*
                                   WIDGET: SUGGESTION
       *------------------------------------------------------------------------*/
-
       "editorSuggestWidget.background": "#0E1825",
       "editorSuggestWidgetStatus.foreground": "#DDDDDD",
       "editorSuggestWidget.selectedForeground": "#FFFFFF",
@@ -68,7 +65,6 @@
       "editorSuggestWidget.focusHighlightForeground": "#FF00FF",
       "editorSuggestWidget.highlightForeground": "#08F277",
       "editorSuggestWidget.selectedBackground": "#00CCFF33",
-
       /*-----------------------------------------------------------------------*
                                     STATUS: ERROR
       *------------------------------------------------------------------------*/
@@ -85,22 +81,20 @@
       "notificationsErrorIcon.foreground": "#FF2222",
       "problemsErrorIcon.foreground": "#FF2222",
       "debugTokenExpression.error": "#FF2222",
-
       /*-----------------------------------------------------------------------*
                                    STATUS: WARNING
       *------------------------------------------------------------------------*/
       // WARNING: Fg & Squiggles
-      "editorWarning.foreground": "#B0E020",
-      "list.warningForeground": "#B0E020",
-      "debugConsole.warningForeground": "#B0E020",
-      "inputValidation.warningForeground": "#B0E020",
-      "editorOverviewRuler.warningForeground": "#B0E020",
-      "statusBarItem.warningForeground": "#B0E020",
-      "inputValidation.warningBorder": "#B0E020",
+      "editorWarning.foreground": "#BBDD33",
+      "list.warningForeground": "#BBDD33",
+      "debugConsole.warningForeground": "#BBDD33",
+      "inputValidation.warningForeground": "#BBDD33",
+      "editorOverviewRuler.warningForeground": "#BBDD33",
+      "statusBarItem.warningForeground": "#BBDD33",
+      "inputValidation.warningBorder": "#BBDD33",
       // WARNING: Icons
       "notificationsWarningIcon.foreground": "#FFFF00",
       "problemsWarningIcon.foreground": "#FFFF00",
-
       /*-----------------------------------------------------------------------*
                                  STATUS: INFO & HINT
       *------------------------------------------------------------------------*/
@@ -170,20 +164,19 @@
 
       *------------------------------------------------------------------------*
                                         ACTIVE
-                                (R:016 G:240 B:255 @99)
       *------------------------------------------------------------------------*	*/
       // #CONFIGURABLE - "Active-borders are configurable".
-      "activityBar.activeBorder": "#11DD44",
-      "tab.activeBorderTop": "#11DD44",
-      "terminal.tab.activeBorder": "#11DD44",
-      "panelTitle.activeBorder": "#11DD44",
-      "inputOption.activeBorder": "#11DD44",
-      "editorLineNumber.activeForeground": "#11DD44",
+      "activityBar.activeBorder": "#20DD50",
+      "tab.activeBorderTop": "#20DD50",
+      "terminal.tab.activeBorder": "#20DD50",
+      "panelTitle.activeBorder": "#20DD50",
+      "inputOption.activeBorder": "#20DD50",
+      "editorLineNumber.activeForeground": "#20DD50",
+      "panelTitle.activeForeground": "#20DD50",
       // ACTIVE FOREGROUND
-      "panelTitle.activeForeground": "#EEEEEE",
-      "textLink.activeForeground": "#EEEEEE",
-      "editorLink.activeForeground": "#EEEEEE",
-      "inputOption.activeForeground": "#EEEEEE",
+      "textLink.activeForeground": "#FFFFFF",
+      "editorLink.activeForeground": "#FFFFFF",
+      "inputOption.activeForeground": "#FFFFFF",
       "titleBar.activeForeground": "#DDDDDD",   // COLORED SAME AS MENU/WIDGET FG
       // ACTIVE BACKGROUND
       "minimapSlider.activeBackground": "#0099BB77",
@@ -199,20 +192,20 @@
       /*
 
       *------------------------------------------------------------------------*
-                            BACKGROUND, ACTIVE SELECTION   - (op64)
-                           BACKGROUND, INACTIVE SELECTION  - (op40)
-                               (R:000 G:237 B:255 @99)
+                           BACKGROUND, ACTIVE SELECTION
+                           BACKGROUND, INACTIVE SELECTION
+                           (R:000 G:237 B:255 @99)
       *------------------------------------------------------------------------**/
       "sideBarTitle.foreground": "#00EEFF",
       "editorOverviewRuler.selectionHighlightForeground": "#00EEFF",
       "minimap.selectionOccurrenceHighlight": "#00EEFF",
       "minimap.selectionHighlight": "#00EEFF",
-      "list.focusOutline": "#00EEFF80",
-      "focusBorder": "#00EEFF80",
-      "list.inactiveFocusOutline": "#00EEFF80",
-      "settings.focusedRowBorder": "#00EEFF80",
-      "menu.selectionBorder": "#00EEFF80",
-      "menubar.selectionBorder": "#00EEFF80",
+      "list.focusOutline": "#00EEFF88",
+      "focusBorder": "#00EEFF99",
+      "list.inactiveFocusOutline": "#00EEFF88",
+      "settings.focusedRowBorder": "#00EEFF88",
+      "menu.selectionBorder": "#00EEFF88",
+      "menubar.selectionBorder": "#00EEFF88",
       "menubar.selectionBackground": "#00EEFF40",
       "selection.background": "#00EEFF40",
       "editor.selectionBackground": "#00EEFF40",
@@ -293,6 +286,7 @@
       "editorOverviewRuler.rangeHighlightForeground": "#0099BB77",
       "editorOverviewRuler.wordHighlightStrongForeground": "#0099BB55",
       /*
+
       --------------------------------------------------
        |> WHITE: #FFFFFF
       --------------------------------------------------*/
