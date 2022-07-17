@@ -1,51 +1,17 @@
 {
    "name": "late-night-programming",
-   "displayName": "Late Night Programming: Themes for VS Code",
    "description": "Dark Theme for VS Code",
    "version": "0.0.1",
+   "displayName": "Late Night Programming: Themes for VS Code",
    "publisher": "jayd3v",
    "icon": "icon/open-late.png",
-   "type": "module",
+   "galleryBanner": { "color": "#03162F", "theme": "dark" },
+   "engines": { "vscode": "^1.65.0", "node": "^16.0.0" },
+   "categories": ["Themes"],
+   "author": { "name": "JAYD3V", "email": "W3Dojo@Gmail.com" },
    "repository": {
       "type": "git",
-      "url": "https://www.github.com/JAYD3V/Late-Night-Programming"
-   },
-   "author": {
-      "name": "JAYD3V",
-      "email": "W3Dojo@Gmail.com"
-   },
-
-   "galleryBanner": {
-      "color": "#02142A",
-      "theme": "dark"
-   },
-
-   "engines": {
-      "vscode": "^1.65.0",
-      "node": "^16.0.0"
-   },
-
-   "categories": [
-      "Themes"
-   ],
-
-   "contributes": {
-      "themes": [
-         {
-            "label": "Late Night",
-            "id": "late-night",
-            "uiTheme": "vs-dark",
-            "path": "./theme/late-night-vscode-theme.json"
-         },
-         {
-            "label": "Nocturnal",
-            "id": "nocturnal",
-            "uiTheme": "vs-dark",
-            "path": "./theme/nocturnal-vscode-theme.json"
-         }
-      ]
-   },
-
+      "url": "https://www.github.com/JAYD3V/Late-Night-Programming"},
    "devDependencies": {
       "@types/mocha": "^9.1.1",
       "@types/node": "^18.0.4",
@@ -57,6 +23,18 @@
       "typescript": "^4.7.4",
       "typescript-eslint-language-service": "^5.0.0",
       "vsce": "^2.9.2",
-      "vscode": "^0.9.9"
+      "vscode": "^0.9.9"},
+   "contributes": {
+      "themes": [{
+         "label": "Late Night",
+         "id": "late-night",
+         "uiTheme": "vs-dark",
+         "path": "./theme/late-night-vscode-theme.json"
+      },{
+         "label": "Nocturnal",
+         "id": "nocturnal",
+         "uiTheme": "vs-dark",
+         "path": "./theme/nocturnal-vscode-theme.json"
+      }]
    }
 }

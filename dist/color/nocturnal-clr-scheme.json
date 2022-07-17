@@ -1,0 +1,101 @@
+{
+    "CLR_GROUP_ALPHA": {
+        "name": "springGrn01",
+        "rgb": "#1DDD58",
+        "properties": [
+            "activityBar.activeBorder",
+            "tab.activeBorderTop",
+            "terminal.tab.activeBorder",
+            "panelTitle.activeBorder",
+            "inputOption.activeBorder",
+            "editorLineNumber.activeForeground"
+        ]
+    },
+    "CLR_GROUP_BETA": {
+        "name": "springGrn01",
+        "rgb": "#1DDD58",
+        "properties": [
+            "activityBar.activeBorder",
+            "tab.activeBorderTop",
+            "terminal.tab.activeBorder",
+            "panelTitle.activeBorder",
+            "inputOption.activeBorder",
+            "editorLineNumber.activeForeground"
+        ]
+    },
+    "STATIC_PROPERTIES": {
+        "properties": [],
+        "colors": [
+            {
+                "name": "White-F",
+                "color": "#FFFFFF",
+                "properties": []
+            },
+            {
+                "name": "White-E",
+                "color": "#EEEEEE",
+                "properties": [
+                    "a",
+                    "b",
+                    "c"
+                ]
+            },
+            {
+                "name": "White-D",
+                "color": "#DDDDDD",
+                "properties": [
+                    "a",
+                    "b",
+                    "c"
+                ]
+            }
+        ]
+    },
+    "STATIC_STATUS_PROPS": [
+        {
+            "id": "STATUS_ERROR",
+            "rgb": "#FF2C24",
+            "properties": {
+                "opaque": [
+                    "errorForeground",
+                    "editorError.foreground",
+                    "inputValidation.errorForeground",
+                    "list.errorForeground",
+                    "debugConsole.errorForeground",
+                    "editorOverviewRuler.errorForeground",
+                    "statusBarItem.errorForeground",
+                    "notificationsErrorIcon.foreground",
+                    "problemsErrorIcon.foreground",
+                    "debugTokenExpression.error",
+                    "errorForeground",
+                    "editorError.foreground",
+                    "inputValidation.errorForeground",
+                    "list.errorForeground",
+                    "debugConsole.errorForeground",
+                    "editorOverviewRuler.errorForeground",
+                    "statusBarItem.errorForeground",
+                    "notificationsErrorIcon.foreground",
+                    "problemsErrorIcon.foreground",
+                    "debugTokenExpression.error"
+                ],
+                "tp28": "editorMarkerNavigationError.background"
+            },
+            "transparent": {
+                "editorMarkerNavigationError.background": 28
+            }
+        },
+        {
+            "id": "STATUS_WARNING",
+            "rgb": "#FFEE11",
+            "properties": [
+                "editorWarning.foreground",
+                "list.warningForeground",
+                "debugConsole.warningForeground",
+                "inputValidation.warningForeground",
+                "editorOverviewRuler.warningForeground",
+                "statusBarItem.warningForeground",
+                "inputValidation.warningBorder"
+            ]
+        }
+    ]
+}

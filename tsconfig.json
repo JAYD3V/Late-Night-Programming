@@ -1,12 +1,12 @@
 {
    "include": [
-      "source/**/*.mts",
-      "source/**/*.ts"
+      "extension/**/*.mts",
+      "extension/**/*.ts"
    ],
 
    "exclude": [
       "node_modules/**/*",
-      "extension/**/*",
+      "dist/**/*",
       "types/**/*",
       "*.d.ts",
       "*.d.mts"
@@ -14,16 +14,19 @@
 
    "compilerOptions": {
       // ECMAS Specification
-      "lib": ["ES2022"],
+      "lib": ["ESNext"],
       "target": "ES2021",
 
       // Module Resolution
-      "module": "NodeNext",
-      "moduleResolution": "Node16",
+      "module": "ES2022",
+      "moduleResolution": "node",
       "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+
       // Project Structure
-      "outDir": "extension",
-      "rootDir": "source",
+      "outDir": "dist",
+      "rootDir": "extension",
       "declarationDir": "types",
       "declaration": true,
       "declarationMap": true,
