@@ -48,7 +48,7 @@
         *-----------------------------------------------------------------------*/
         "contrastBorder": "#FFFFFF20",
         "disabledForeground": "#AA405CB0",
-        "descriptionForeground": "#66CCEE",
+        "descriptionForeground": "#77EEFF",
         "sash.hoverBorder": "#22DD66BB",
         "welcomePage.tileShadow": "#0A0300",
 
@@ -178,12 +178,24 @@
         "terminal.tab.activeBorder": "#22DD66",
         "panelTitle.activeBorder": "#22DD66",
         "inputOption.activeBorder": "#22DD66",
-        "editorLineNumber.activeForeground": "#22DD66",
+
         // ACTIVE FOREGROUND
-        "panelTitle.activeForeground": "#22DD66",
-        "textLink.activeForeground": "#FFFFFF",
-        "editorLink.activeForeground": "#FFFFFF",
-        "inputOption.activeForeground": "#FFFFFF",
+        "editorLink.activeForeground": "#10E060",
+        "editorLineNumber.activeForeground": "#10E060",
+        "panelTitle.activeForeground": "#10E070",
+        "textLink.activeForeground": "#10E070",
+        "inputOption.activeForeground": "#10E070",
+        "activityBar.foreground": "#EEEEEE",
+        "tab.activeForeground": "#C8C8C8",
+        "titleBar.activeForeground": "#DDDDDD",   // COLORED SAME AS MENU/WIDGET FG
+
+        "panelTitle.inactiveForeground": "#77EEFF88",
+        "tab.inactiveForeground": "#77EEFF88",
+        "tab.unfocusedInactiveForeground": "#77EEFF88",
+        "activityBar.inactiveForeground": "#77EEFF5C",
+
+
+
 
         // ACTIVE BACKGROUND
         "minimapSlider.activeBackground": "#00B0BB77",
@@ -193,10 +205,11 @@
                                 INACTIVE / DE-EMPHASIZED
                                     (R51 G192 B136 *53)
         *----------------------------------------------------------------------*/
-        "panelTitle.inactiveForeground": "#777C80",
-        "breadcrumb.foreground": "#3D7DA0E8",
-        "editorLineNumber.foreground": "#3D7DA0AA",
-        "activityBar.inactiveForeground": "#3D7DA099",
+
+
+
+        "breadcrumb.foreground": "#007799",
+        "editorLineNumber.foreground": "#77EEFF55", // #3D7DA0AA
         /*
 
         *----------------------------------------------------------------------*
@@ -205,7 +218,7 @@
                                 (R:000 G:237 B:255 @99)
         *----------------------------------------------------------------------*/
         "sideBarTitle.foreground": "#22DDFF",
-        "editorOverviewRuler.selectionHighlightForeground": "#006699",
+        "editorOverviewRuler.selectionHighlightForeground": "#2288AA",
         "minimap.selectionOccurrenceHighlight": "#11DDFFAA",
         "minimap.selectionHighlight": "#11DDFF",
         "list.focusOutline": "#11DDFF66",
@@ -323,7 +336,7 @@
         "textLink.foreground": "#C8C8C8",
         "textPreformat.foreground": "#EEEEEE",
         "pickerGroup.foreground": "#C8C8C8",
-        "tab.activeForeground": "#C8C8C8",
+
         "activityBar.dropBorder": "#00B0BB",
         "panel.dropBorder": "#00B0BB",
         "editorGroup.dropIntoPromptBackground": "#00B0BB66",
@@ -333,7 +346,7 @@
         "list.dropBackground": "#00B0BB66",
         "panelSection.dropBackground": "#00B0BB66",
         "editorRuler.foreground": "#00779928",
-        "activityBar.foreground": "#EEEEEE",
+
 
 
 
@@ -523,7 +536,7 @@
         "editorWidget.foreground": "#DDDDDD",
         "editorWidget.border": "#005260AA",
         "editorHoverWidget.border": "#005260AA",
-        "titleBar.activeForeground": "#DDDDDD",   // COLORED SAME AS MENU/WIDGET FG
+
         "editorWidget.resizeBorder": "#005260",
         "editorWidget.background": "#0F1218",
         "editorHoverWidget.foreground": "#C8C8C8",
