@@ -31,10 +31,15 @@
          "uiTheme": "vs-dark",
          "path": "./theme/late-night-vscode-theme.json"
       },{
-         "label": "Nocturnal",
-         "id": "nocturnal",
+         "label": "NOCTURNAL: BLUE",
+         "id": "nocturnal-blue",
          "uiTheme": "vs-dark",
-         "path": "./theme/nocturnal-vscode-theme.json"
+         "path": "./theme/nocturnal-blue-vscode-theme.json"
+      },{
+         "label": "NOCTURNAL: BLACK",
+         "id": "nocturnal-black",
+         "uiTheme": "vs-dark",
+         "path": "./theme/nocturnal-black-vscode-theme.json"
       }]
    }
 }
