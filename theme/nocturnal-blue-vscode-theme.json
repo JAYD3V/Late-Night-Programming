@@ -34,15 +34,15 @@
                      SPECIALIZED/UNIQUELY COLORED
    *-----------------------------------------------------------------------*/
       "contrastBorder": "#0B0400",
-      "disabledForeground": "#AA405CB0",
-      "descriptionForeground": "#E4B433",
+      "disabledForeground": "#A55860",
+      "descriptionForeground": "#EEAA22",
       "sash.hoverBorder": "#20BCFF",
       "scrollbar.shadow": "#000000",
       "titleBar.border": "#000000", // Unique! (colored as a shadow)
-      "editorLightBulb.foreground": "#F0B811",
-      "editorLightBulbAutoFix.foreground": "#F0B811",
+      "editorLightBulb.foreground": "#FFC020",
+      "editorLightBulbAutoFix.foreground": "#FFC020",
       "editorCodeLens.foreground": "#20BCFF66",
-      "editorUnnecessaryCode.opacity": "#AAAAAAAA", // Sets opacity, 'NOT' color!
+      "editorUnnecessaryCode.opacity": "#AAAAAACC", // Sets opacity, 'NOT' color!
       "editorUnicodeHighlight.border": "#881111",
       /*----------------------------------------------------------------------*
                STATUS: ERROR
@@ -234,14 +234,14 @@
       /*---------------------------------------------------------------------*
                      PRIMARY BACKGROUND PALETTE
 
-      (1|"#121419"), (2|"#121110"), (3|"#071021")
+      (1|"#111218"), (2|"#121110"), (3|"#071021")
       *----------------------------------------------------------------------*/
       // Charcoal Backgrounds (unique)
       "titleBar.activeBackground": "#15181C",
-      "textBlockQuote.background": "#121419",
-      "editor.background": "#121419",
-      "editorOverviewRuler.background": "#121419",
-      "sideBar.background": "#121419",
+      "textBlockQuote.background": "#111218",
+      "editor.background": "#111218",
+      "editorOverviewRuler.background": "#111218",
+      "sideBar.background": "#111218",
       "editorMarkerNavigation.background": "#071021",
       "panel.background": "#071021",
       "activityBar.background": "#071021",
@@ -643,9 +643,9 @@
    CLASS                   -> #C490FF
    CLASS-MEMBERS           -> #1EBCC4
 
-   FUNCTIONS               -> #00BBFF
-   FUNCTION-MEMBERS        -> #00BBFF
-   VARIABLE PARAMETERS     -> #E0B040
+   FUNCTIONS               -> #20ACFF
+   FUNCTION-MEMBERS        -> #20ACFF
+   VARIABLE PARAMETERS     -> #DDA022
 
    ANNOTATIONS (primitive) -> #0099AA (i)
    *****************************************************************************/
@@ -654,13 +654,13 @@
       "interface": "#C490FF",
       "struct": "#C490FF",
       "namespace": "#C490FF",
-      "function": "#00BBFF",
-      "method": "#00BBFF",
+      "function": "#20ACFF",
+      "method": "#20ACFF",
       "variable": "#90C2F8",
       "property": "#90C2F8",
       "variable.declaration": "#1EBCC4",
       "property.declaration": "#1EBCC4",
-      "parameter": "#E0B040"
+      "parameter": "#DDA022"
       // "type": "#FFF0",
       // "typeParameter""#FFF0",
    },
@@ -673,67 +673,70 @@
          }
       },
       {
-         "name": "PUNCTUATION",
-         "scope": ["variable", "punctuation", "meta.brace"],
+         "name": "VARIABLES, BRACES, PUNCTUATION & OPERATORS",
+         "scope": [
+            "variable",
+            "punctuation",
+            "keyword.operator.assignment",
+            "storage.type.function.arrow",
+            "meta.brace",
+            "keyword.operator.type.annotation"
+         ],
          "settings": {
-            "foreground": "#C0C0C0"
+            "foreground": "#C8C8C8",
+            "fontStyle": ""
          }
       },
       {
          "name": "OPERATORS",
-         "scope": ["keyword.operator"],
+         "scope": [
+            "keyword.operator",
+            "punctuation.accessor",
+            "punctuation.definition.template-expression"],
          "settings": {
-            "foreground": "#40D080"
+            "foreground": "#A0E880"
          }
       },
       {
          "name": "STRING LITERAL",
          "scope": ["string", "punctuation.definition.string"],
          "settings": {
-            "foreground": "#90C4E8"
+            "foreground": "#A0BB90",
+            "fontStyle": ""
          } // PREV-CLR: "#489028"
       },
       {
          "name": "BOOLEAN LITERAL, UNDEFINED LITERAL, NULL LITERAL, NAN LITERAL, & UTF/ANSI Esc",
          "scope": ["constant"],
          "settings": {
-            "foreground": "#EEAA33"
+            "foreground": "#44AA22"
          }
       },
       {
          "name": "NUMERIC LITERAL",
          "scope": ["constant.numeric"],
          "settings": {
-            "foreground": "#F28848", "fontStyle": ""
+            "foreground": "#E85030",
+            "fontStyle": ""
          }
       },
       {
-         "name": "KEYWORDS: STORAGE DECLARATORS",
-         "scope": ["storage.type", "keyword.control.import"],
-         "settings": { "foreground": "#2882F5" }
+         "name": "KEYWORDS / STORAGE",
+         "scope": [ "keyword", "storage" ],
+         "settings": {
+            "foreground": "#8874FA",
+            "fontStyle": ""
+         }
       },
       {
          "name": "KEYWORDS: CONTROL-FLOW, CONDITIONALS, MODIFIERS, etc",
          "scope": [
-            "keyword.control",
-            "keyword.other",
-            "storage.modifier",
-            "storage.type.function"
-         ],
-         "settings": {
-            "foreground": "#2882F5",
-            "fontStyle": "italic"
-         }
-      },
-      {
-         "name": "KEYWORDS: OPERATOR EXPRESSIONS",
-         "scope": [
             "keyword.operator.new",
             "keyword.operator.expression",
-            "keyword.operator.type.annotation"
+            "storage.modifier",
          ],
          "settings": {
-            "foreground": "#40A0FF",
+            "foreground": "#8874FA",
             "fontStyle": "italic"
          }
       },
@@ -754,7 +757,7 @@
          "name": "VARIABLES: PARAMETERS",
          "scope": ["variable.parameter"],
          "settings": {
-            "foreground": "#D8CE77"
+            "foreground": "#E8A424"
          }
       },
       {
@@ -771,34 +774,44 @@
          }
       },
       {
-         "name": "TYPES & CLASSES",
+         "name": "CLASSES",
          "scope": [
-            "support.type",
             "support.class",
             "entity.name.class",
+            "new.expr meta.function-call.ts entity.name.function.ts",
             "entity.other.inherited-class",
+         ],
+         "settings": {
+            "foreground": "#30B555",
+            "fontStyle": "bold"
+         }
+      },
+      {
+         "name": "TYPES",
+         "scope": [
+            "support.type",
             "entity.name.type",
-            "entity.name.namespace",
             "entity.name.interface",
+            "entity.name.namespace",
             "entity.other.attribute",
             "entity.name.scope-resolution"
          ],
          "settings": {
-            "foreground": "#C490FF"
+            "foreground": "#30B555"
          }
       },
       {
          "name": "FUNCTION: FUNCTION/METHOD DEFINITIONS & CALLS",
          "scope": "entity.name.function",
          "settings": {
-            "foreground": "#00BBFF"
+            "foreground": "#20ACFF"
          }
       },
       {
          "name": "FUNCTION: DECLARATION",
          "scope": ["meta.definition.function entity.name.function"],
          "settings": {
-            "foreground": "#00BBFF",
+            "foreground": "#20ACFF",
             "fontStyle": "bold"
          }
       },
@@ -806,7 +819,7 @@
          "name": "FUNCTION: MATH SUPPORT",
          "scope": ["support.function.math"],
          "settings": {
-            "foreground": "#00BBFF",
+            "foreground": "#20ACFF",
             "fontStyle": "italic"
          }
       },
@@ -818,13 +831,7 @@
             "fontStyle": "italic"
          }
       },
-      {
-         "name": "STRING TEMPLATE: EMBEDDED VARIABLE PUNCTUATION (ECMAScript Languages)",
-         "scope": ["punctuation.definition.template-expression"],
-         "settings": {
-            "foreground": "#2882F5"
-         }
-      },
+
       {
          "name": "CONSTANT: MATH-SUPPORT",
          "scope": ["support.constant.math"],
@@ -846,14 +853,15 @@
       {
          "scope": "storage.type.class.jsdoc",
          "settings": {
-            "foreground": "#007EC4"
+            "foreground": "#1177DD"
          }
       },
       {
          "name": "JSON/JSONC: PROPERTY-KEYS",
-         "scope": "support.type.property-name",
+         "scope": ["support.type.property-name", "punctuation.support.type.property-name"],
          "settings": {
-            "foreground": "#2882F5"
+            "foreground": "#309FFC",
+            "fontStyle": ""
          }
       },
       /*-----------------------------------------*
