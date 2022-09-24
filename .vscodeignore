@@ -1,0 +1,6 @@
+.gitignore
+.vscodeignore
+.vscode/
+node_modules/
+.editorconfig
+package-lock.json

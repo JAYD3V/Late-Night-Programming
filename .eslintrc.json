@@ -1,0 +1,152 @@
+{
+  "env": {
+    "es2022": true,
+    "node": true,
+    "mocha": true,
+    "commonjs": false,
+    "browser": false
+  },
+
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+
+  "ignorePatterns": [
+    // Ignore Dependencies
+    "node_modules/**/*",
+    "build/**/*",
+    "types/**/*",
+    ".trash-bin/**/*",
+    "*.js",
+    "*.mjs",
+    "*.d.*",
+    "*.*.map"
+  ],
+
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["plugin:@typescript-eslint/recommended", "eslint:recommended"],
+  "rules": {
+    "@typescript-eslint/ban-types": ["error"],
+    "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": true }],
+    "function-paren-newline": ["off"],
+    "multiline-ternary": ["off"],
+    "eol-last": ["error", "always"],
+    "no-tabs": ["error"],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "indent": [
+      "error",
+      3,
+      {
+        "MemberExpression": 1,
+        "SwitchCase": 1,
+        "outerIIFEBody": 0,
+        "VariableDeclarator": { "var": "first", "let": "first", "const": "first" },
+        "FunctionDeclaration": { "body": 1, "parameters": 2 },
+        "ImportDeclaration": "first",
+        "ArrayExpression": "first",
+        "ObjectExpression": "first",
+        "CallExpression": { "arguments": "first" },
+        "FunctionExpression": { "body": 1, "parameters": "first" },
+        "flatTernaryExpressions": true,
+        "offsetTernaryExpressions": true,
+        "ignoreComments": true
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 85,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreStrings": false,
+        "ignoreComments": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreTrailingComments": true,
+        "ignoreRegExpLiterals": false
+      }
+    ],
+    /*
+
+
+        FORMATTING RULES: "INSERTING LINE BREAKS"                     */
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "operator-linebreak": ["error", "before"], // (Highly Configurable if needed)
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 6,
+        "maxBOF": 1,
+        "maxEOF": 1
+      }
+    ],
+    "no-spaced-func": ["error"],
+    "no-trailing-spaces": ["error"],
+    "block-spacing": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "comma-style": ["error", "last"],
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true
+      }
+    ],
+    "space-unary-ops": [
+      "error",
+      {
+        "words": true,
+        "nonwords": false
+      }
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "func-call-spacing": ["error", "never"],
+    "space-before-blocks": [
+      "error",
+      {
+        "functions": "never",
+        "keywords": "never",
+        "classes": "always"
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "multiLine": {
+          "beforeColon": false,
+          "afterColon": true
+        },
+
+        "align": {
+          "beforeColon": true,
+          "afterColon": true,
+          "on": "colon"
+        }
+      }
+    ],
+    "for-direction": ["error"],
+    "no-duplicate-imports": ["error"],
+    "default-param-last": ["error"],
+    "no-else-return": ["error"],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}

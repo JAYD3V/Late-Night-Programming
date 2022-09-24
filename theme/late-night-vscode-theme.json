@@ -738,19 +738,19 @@
       },{
          "name": "KEYWORDS: STORAGE DECLARATORS",
          "scope":["storage"],
-         "settings": { "foreground": "#508FF0" }
+         "settings": { "foreground": "#AA77FF" }
       },{
          "name": "KEYWORDS (emphasized)",
          "scope":["storage.modifier", "keyword.control.export"],
-         "settings": { "foreground": "#508FF0", "fontStyle": "italic" }
+         "settings": { "foreground": "#AA77FF", "fontStyle": "italic" }
       },{
          "name": "KEYWORDS (emboldened)",
          "scope":["storage.modifier", "keyword.control.export"],
-         "settings": { "foreground": "#508FF0", "fontStyle": "italic" }
+         "settings": { "foreground": "#AA77FF", "fontStyle": "italic" }
       },{
          "name": "KEYWORDS: CONTROL-FLOW",
          "scope":["keyword.control"],
-         "settings": { "foreground": "#508FF0" }
+         "settings": { "foreground": "#AA77FF" }
       },{
          "name": "KEYWORDS: OPERATORS",
          "scope":["keyword.operator", "keyword.other"],

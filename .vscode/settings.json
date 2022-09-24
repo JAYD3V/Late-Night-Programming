@@ -1,0 +1,8 @@
+{
+   "explorer.fileNesting.enabled": true,
+   "files.exclude": {
+      "**/.git": true,
+      ".editorconfig": true,
+      "LICENSE": true,
+   }
+}
