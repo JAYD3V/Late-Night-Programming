@@ -1,5 +1,5 @@
 {
-    /*******************************************************************
+     /*******************************************************************
    TODO:
    Create a collection of spring/forest green properties that
    will consist of properties that can be changed to a different
@@ -457,19 +457,19 @@
       |------------------------------------------------------------|
                  -- BRACKET PAIRS & INDENTATION-GUIDES --
       |------------------------------------------------------------|    */
-        "editorBracketPairGuide.background1": "#034244", // <<- Odd
-        "editorBracketPairGuide.background3": "#034244", // <<- Odd
-        "editorBracketPairGuide.background5": "#034244", // <<- Odd
-        "editorBracketPairGuide.background2": "#02447A", // <<- Even
-        "editorBracketPairGuide.background4": "#02447A", // <<- Even
-        "editorBracketPairGuide.background6": "#02447A", // <<- Even
-        "editorBracketPairGuide.activeBackground1": "#0898A0",
-        "editorBracketPairGuide.activeBackground3": "#0898A0",
-        "editorBracketPairGuide.activeBackground5": "#0898A0",
-        "editorBracketPairGuide.activeBackground2": "#009CFF",
-        "editorBracketPairGuide.activeBackground4": "#009CFF",
-        "editorBracketPairGuide.activeBackground6": "#009CFF",
-        /*---------------------------*---------------------------*
+          "editorBracketPairGuide.background1": "#034244", // <<- Odd
+          "editorBracketPairGuide.background3": "#034244", // <<- Odd
+          "editorBracketPairGuide.background5": "#034244", // <<- Odd
+          "editorBracketPairGuide.background2": "#02447A", // <<- Even
+          "editorBracketPairGuide.background4": "#02447A", // <<- Even
+          "editorBracketPairGuide.background6": "#02447A", // <<- Even
+          "editorBracketPairGuide.activeBackground1": "#0898A0",
+          "editorBracketPairGuide.activeBackground3": "#0898A0",
+          "editorBracketPairGuide.activeBackground5": "#0898A0",
+          "editorBracketPairGuide.activeBackground2": "#009CFF",
+          "editorBracketPairGuide.activeBackground4": "#009CFF",
+          "editorBracketPairGuide.activeBackground6": "#009CFF",
+          /*---------------------------*---------------------------*
 
 
 
@@ -545,55 +545,55 @@
         /*---------------------------------------------------------------------*
             DICHROMATIC BRACKET-HIGHLIGHTING SCHEME
         *----------------------------------------------------------------------*/
-        "editorBracketHighlight.foreground1": "#0898A0", // <<- Odd
-        "editorBracketHighlight.foreground3": "#0898A0", // <<- Odd
-        "editorBracketHighlight.foreground5": "#0898A0", // <<- Odd
-        "editorBracketHighlight.foreground2": "#009CFF", // <<- Even
-        "editorBracketHighlight.foreground4": "#009CFF", // <<- Even
-        "editorBracketHighlight.foreground6": "#009CFF", // <<- Even
-        "editorBracketHighlight.unexpectedBracket.foreground": "#FF4455",
-        /*
+          "editorBracketHighlight.foreground1": "#0898A0", // <<- Odd
+          "editorBracketHighlight.foreground3": "#0898A0", // <<- Odd
+          "editorBracketHighlight.foreground5": "#0898A0", // <<- Odd
+          "editorBracketHighlight.foreground2": "#009CFF", // <<- Even
+          "editorBracketHighlight.foreground4": "#009CFF", // <<- Even
+          "editorBracketHighlight.foreground6": "#009CFF", // <<- Even
+          "editorBracketHighlight.unexpectedBracket.foreground": "#FF4455",
+          /*
         *-------------------------------------------------*
             |** SYMBOL-ICONS **|
         *--------------------------------------------------*/
-        "symbolIcon.arrayForeground": "#00C2FF",
-        "symbolIcon.textForeground": "#00C2FF",
-        "symbolIcon.stringForeground": "#00C2FF",
-        "symbolIcon.colorForeground": "#00C2FF",
-        "symbolIcon.classForeground": "#00C2FF",
-        "symbolIcon.structForeground": "#00C2FF",
-        "symbolIcon.methodForeground": "#00C2FF",
-        "symbolIcon.constructorForeground": "#00C2FF",
-        "symbolIcon.functionForeground": "#00C2FF",
-        "symbolIcon.interfaceForeground": "#00C2FF",
-        "symbolIcon.keyForeground": "#00C2FF",
-        "symbolIcon.namespaceForeground": "#00C2FF",
-        "symbolIcon.objectForeground": "#00C2FF",
-        "symbolIcon.referenceForeground": "#00C2FF",
-        "symbolIcon.eventForeground": "#00C2FF",
-        "symbolIcon.moduleForeground": "#00C2FF",
-        "symbolIcon.fieldForeground": "#00C2FF",
-        "symbolIcon.propertyForeground": "#00C2FF",
-        "symbolIcon.booleanForeground": "#00C2FF",
-        "symbolIcon.constantForeground": "#00C2FF",
-        "symbolIcon.nullForeground": "#00C2FF",
-        "symbolIcon.enumeratorForeground": "#00C2FF",
-        "symbolIcon.enumeratorMemberForeground": "#00C2FF",
-        "symbolIcon.fileForeground": "#00C2FF",
-        "symbolIcon.folderForeground": "#00C2FF",
-        "symbolIcon.keywordForeground": "#00C2FF",
-        "symbolIcon.numberForeground": "#00C2FF",
-        "symbolIcon.operatorForeground": "#00C2FF",
-        "symbolIcon.packageForeground": "#00C2FF",
-        "symbolIcon.typeParameterForeground": "#00C2FF",
-        "symbolIcon.variableForeground": "#00C2FF",
-        "symbolIcon.unitForeground": "#00C2FF",
-        "symbolIcon.snippetForeground": "#00C2FF"
-        /*---------------------------------------------------------------------*
+          "symbolIcon.arrayForeground": "#00C2FF",
+          "symbolIcon.textForeground": "#00C2FF",
+          "symbolIcon.stringForeground": "#00C2FF",
+          "symbolIcon.colorForeground": "#00C2FF",
+          "symbolIcon.classForeground": "#00C2FF",
+          "symbolIcon.structForeground": "#00C2FF",
+          "symbolIcon.methodForeground": "#00C2FF",
+          "symbolIcon.constructorForeground": "#00C2FF",
+          "symbolIcon.functionForeground": "#00C2FF",
+          "symbolIcon.interfaceForeground": "#00C2FF",
+          "symbolIcon.keyForeground": "#00C2FF",
+          "symbolIcon.namespaceForeground": "#00C2FF",
+          "symbolIcon.objectForeground": "#00C2FF",
+          "symbolIcon.referenceForeground": "#00C2FF",
+          "symbolIcon.eventForeground": "#00C2FF",
+          "symbolIcon.moduleForeground": "#00C2FF",
+          "symbolIcon.fieldForeground": "#00C2FF",
+          "symbolIcon.propertyForeground": "#00C2FF",
+          "symbolIcon.booleanForeground": "#00C2FF",
+          "symbolIcon.constantForeground": "#00C2FF",
+          "symbolIcon.nullForeground": "#00C2FF",
+          "symbolIcon.enumeratorForeground": "#00C2FF",
+          "symbolIcon.enumeratorMemberForeground": "#00C2FF",
+          "symbolIcon.fileForeground": "#00C2FF",
+          "symbolIcon.folderForeground": "#00C2FF",
+          "symbolIcon.keywordForeground": "#00C2FF",
+          "symbolIcon.numberForeground": "#00C2FF",
+          "symbolIcon.operatorForeground": "#00C2FF",
+          "symbolIcon.packageForeground": "#00C2FF",
+          "symbolIcon.typeParameterForeground": "#00C2FF",
+          "symbolIcon.variableForeground": "#00C2FF",
+          "symbolIcon.unitForeground": "#00C2FF",
+          "symbolIcon.snippetForeground": "#00C2FF"
+          /*---------------------------------------------------------------------*
                               HIDDEN ITEMS
    *----------------------------------------------------------------------*/
-    },
-    /*
+     },
+     /*
 
 
 
@@ -949,29 +949,29 @@
       *----------------------------------------------------------------------*
                                  TOKENS
       *----------------------------------------------------------------------*/
-        {
-            "scope": "token.info-token",
-            "settings": {
-                "foreground": "#6796E6"
-            }
-        },
-        {
-            "scope": "token.warn-token",
-            "settings": {
-                "foreground": "#CD9731"
-            }
-        },
-        {
-            "scope": "token.error-token",
-            "settings": {
-                "foreground": "#F44747"
-            }
-        },
-        {
-            "scope": "token.debug-token",
-            "settings": {
-                "foreground": "#B267E6"
-            }
-        }
-    ]
+          {
+               "scope": "token.info-token",
+               "settings": {
+                    "foreground": "#6796E6"
+               }
+          },
+          {
+               "scope": "token.warn-token",
+               "settings": {
+                    "foreground": "#CD9731"
+               }
+          },
+          {
+               "scope": "token.error-token",
+               "settings": {
+                    "foreground": "#F44747"
+               }
+          },
+          {
+               "scope": "token.debug-token",
+               "settings": {
+                    "foreground": "#B267E6"
+               }
+          }
+     ]
 }
