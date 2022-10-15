@@ -47,7 +47,6 @@
       ]
    },
    "devDependencies": {
-      "eslint": "^8.0.0-rc.0",
-      "typescript": "^4.9.0-dev.20221014"
+
    }
 }
