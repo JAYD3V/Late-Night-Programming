@@ -38,7 +38,7 @@
         "titleBar.border": "#000000", // Unique! (colored as a shadow)
         "editorLightBulb.foreground": "#FF8800",
         "editorLightBulbAutoFix.foreground": "#FF8800",
-        "editorCodeLens.foreground": "#5C809C",
+        "editorCodeLens.foreground": "#505E77",
         "editorUnnecessaryCode.opacity": "#000D", // Sets opacity, 'NOT' color!
         "editorUnicodeHighlight.border": "#A01020",
         /*
@@ -47,18 +47,17 @@
           STATUS: ERROR
       *----------------------------------------------------------------------*/
         // ERROR: Fg & Squiggles
-        "errorForeground": "#FF343C",
-        "editorError.foreground": "#FF343C55",
-        "editorError.background": "#FF343C25",
-        "inputValidation.errorForeground": "#FF343C",
-        "list.errorForeground": "#FF343C",
-        "debugConsole.errorForeground": "#FF343C",
-        "editorOverviewRuler.errorForeground": "#FF343C",
-        "statusBarItem.errorForeground": "#FF343C",
+        "errorForeground": "#FF2222",
+        "editorError.foreground": "#FF222255",
+        "editorError.background": "#FF222225",
+        "inputValidation.errorForeground": "#FF2222",
+        "list.errorForeground": "#FF2222",
+        "debugConsole.errorForeground": "#FF2222",
+        "editorOverviewRuler.errorForeground": "#FF2222",
+        "statusBarItem.errorForeground": "#FF2222",
         // ERROR: Icons
-        "notificationsErrorIcon.foreground": "#FF343C",
-        "problemsErrorIcon.foreground": "#FF343C",
-        "debugTokenExpression.error": "#FF343C",
+        "problemsErrorIcon.foreground": "#FF2222",
+        "debugTokenExpression.error": "#FF2222",
         "editorMarkerNavigationError.background": "#5C070FA0",
         /*---------------------------------------------------------------------*
                         STATUS: WARNING
@@ -72,7 +71,6 @@
         "statusBarItem.warningForeground": "#EEFF11DD",
         "inputValidation.warningBorder": "#EEFF11DD",
         // WARNING: Icons
-        "notificationsWarningIcon.foreground": "#EEFF11",
         "problemsWarningIcon.foreground": "#EEFF11",
         /*---------------------------------------------------------------------*
                         STATUS: INFO & HINT
@@ -84,7 +82,6 @@
         "editorOverviewRuler.infoForeground": "#1DDDFF",
         "editorMarkerNavigationInfo.background": "#1DDDFF",
         // INFO: Icons
-        "notificationsInfoIcon.foreground": "#1DDDFF",
         "problemsInfoIcon.foreground": "#1DDDFF",
         "menu.foreground": "#BBBBBB",
         "editorBracketMatch.background": "#00000080",
@@ -93,21 +90,64 @@
         // HINT
         "editorHint.border": "#44DD5599",
         "editorHint.foreground": "#44DD55",
-        /*------------------------------------------------------------------------*
-                                  STATIC BORDERS
-   *-------------------------------------------------------------------------*/
-        "textBlockQuote.border": "#080000AA",
-        "notifications.border": "#080000AA",
-        "sideBar.border": "#080000AA",
-        "editorOverviewRuler.border": "#080000AA",
-        "panelInput.border": "#080000AA",
-        "statusBar.noFolderBorder": "#080000",
-        "editor.lineHighlightBorder": "#080000",
-        /*------------------------------------------------------------------------*
+        /*
+
+      |----------------------------------------------------|
+                         HOVER BACKGROUND
+      |----------------------------------------------------|				   */
+        "textBlockQuote.border": "#0D080090",
+        "sideBar.border": "#0D080090",
+        "editorOverviewRuler.border": "#0D080090",
+        "panelInput.border": "#0D080090",
+        "activityBar.border": "#0D080090",
+        "statusBar.noFolderBorder": "#0D0800",
+        "editor.lineHighlightBorder": "#000714",
+        /*
+
+        |---------------------------------------------------|
+                             ACTIVITYBAR
+        |---------------------------------------------------|              */
+        "activityBarItem.settingsProfilesHoverForeground": "#00FFAA",
+        "activityBarItem.settingsProfilesBackground": "#505E7777",
+        "activityBarItem.settingsProfilesForeground": "#FFFFFF",
+        "activityBar.activeBorder": "#50DD99",
+        "activityBar.foreground": "#77DDFF",
+        "activityBar.background": "#081C38",
+        "activityBarBadge.background": "#AA5500",
+        "activityBarBadge.foreground": "#BBDDFF",
+        "activityBar.dropBorder": "#1DDDFF",
+        /*
+
+        |---------------------------------------------------|
+                         HOVER BACKGROUND
+        |---------------------------------------------------|				   */
+        "editor.hoverHighlightBackground": "#001144",
+        "extensionButton.prominentHoverBackground": "#ff0000",
+        "notebook.cellStatusBarItemHoverBackground": "#ff0000",
+        "notebookScrollbarSlider.hoverBackground": "#ff0000",
+        "welcomePage.tileHoverBackground": "#00FFA020",
+
+        "tab.unfocusedHoverBackground": "#00FFA020",
+        "scrollbarSlider.hoverBackground": "#00FFA020",
+        "statusBarItem.compactHoverBackground": "#00FFA020",
+        "statusBarItem.hoverBackground": "#00FFA020",
+        "statusBarItem.prominentHoverBackground": "#00FFA020",
+        "minimapSlider.hoverBackground": "#00FFA020",
+        "list.hoverBackground": "#00FFA020",
+        "toolbar.hoverBackground": "#00FFA020",
+        "button.hoverBackground": "#00FFA020", // UNIQUE
+        "button.secondaryHoverBackground": "#00FFA020", // UNIQUE
+        "inputOption.hoverBackground": "#00FFA020",
+        "settings.rowHoverBackground": "#00FFA020",
+        "notebook.cellHoverBackground": "#00FFA020",
+        "editorStickyScrollHover.background": "#00285E",
+        /*
+
+        *-----------------------------------------------------------------------*
                                 TABS & TAB GROUPS
-   *-------------------------------------------------------------------------*/
-        "tab.lastPinnedBorder": "#5C809C60",
-        "tab.border": "#5C809C60",
+        *-----------------------------------------------------------------------*/
+        "tab.lastPinnedBorder": "#505E7750",
+        "tab.border": "#505E7750",
         // TAB | Active bd
         "tab.activeBorder": "#031B3C",
         "tab.unfocusedActiveBorder": "#031B3C",
@@ -120,8 +160,8 @@
         "tab.activeForeground": "#DDDDDD",
         "tab.unfocusedActiveForeground": "#DDDDDD",
         // TAB | Inactive
-        "tab.inactiveForeground": "#5C809C",
-        "tab.unfocusedInactiveForeground": "#5C809C",
+        "tab.inactiveForeground": "#505E77",
+        "tab.unfocusedInactiveForeground": "#505E77",
         "tab.inactiveBackground": "#0E0D0A",
         "tab.unfocusedInactiveBackground": "#0E0D0A",
         // TAB | MISCELLANEOUS HL
@@ -130,16 +170,16 @@
         // TAB | Unfocused
         "tab.unfocusedActiveModifiedBorder": "#33BB88",
         "tab.unfocusedInactiveModifiedBorder": "#33BB88",
-        // EDITOR GROUPSW
+        // EDITOR GROUPS
         "editorGroup.border": "#22558888",
         "editorGroup.dropIntoPromptBorder": "#FFAE1177",
         "editorGroup.dropIntoPromptForeground": "#FFAE1177",
         "editorGroup.dropIntoPromptBackground": "#1DDDFF66",
         "editorGroup.dropBackground": "#1DDDFF66",
-        "editorGroup.focusedEmptyBorder": "#5C809C",
+        "editorGroup.focusedEmptyBorder": "#505E77",
         // TAB GROUPS
         "editorGroupHeader.border": "#070300",
-        "editorGroupHeader.tabsBorder": "#30406077",
+        "editorGroupHeader.tabsBorder": "#505E7750",
         "editorGroupHeader.noTabsBackground": "#0E0D0A",
         "editorGroupHeader.tabsBackground": "#0E0D0A",
         //
@@ -153,21 +193,20 @@
                      BORDERS, STATIC (colored)
                      (R:051 G:102 B:136 @53)
    *----------------------------------------------------------------------*/
-        "activityBar.border": "#080000AA",
-        "sideBarSectionHeader.border": "#303030",
-        "panelSectionHeader.border": "#303030",
-        "menu.separatorBackground": "#303030",
-        "menu.border": "#303030",
-        "editorIndentGuide.background": "#303030",
-        "keybindingLabel.border": "#303030",
-        "statusBar.border": "#EEEEEE36",
-        "peekView.border": "#303030",
-        "statusBar.debuggingBorder": "#303030",
-        "scm.providerBorder": "#303030",
-        "panelSection.border": "#303030",
-        "terminal.border": "#303030",
-        "sideBySideEditor.horizontalBorder": "#303030",
-        "panel.border": "#303030DD",
+        "sideBarSectionHeader.border": "#505E7740",
+        "panelSectionHeader.border": "#505E7740",
+        "menu.separatorBackground": "#505E7740",
+        "menu.border": "#505E7740",
+        "editorIndentGuide.background": "#505E7740",
+        "keybindingLabel.border": "#505E7740",
+        "statusBar.border": "#505E7760",
+        "peekView.border": "#505E7740",
+        "statusBar.debuggingBorder": "#505E7740",
+        "scm.providerBorder": "#505E7740",
+        "panelSection.border": "#505E7740",
+        "terminal.border": "#505E7740",
+        "sideBySideEditor.horizontalBorder": "#505E7740",
+        "panel.border": "#505E7730",
         /*
 
       *---------------------------------------------------------------*
@@ -175,23 +214,19 @@
                         (R:016 G:240 B:255 @99)
       *---------------------------------------------------------------* */
         // #CONFIGURABLE - "Active-borders are configurable"
-        "activityBar.activeBorder": "#90E0FF",
         "panelTitle.activeBorder": "#90E0FF",
         // ACTIVE FOREGROUND
         "textLink.foreground": "#FF2255",
         "textLink.activeForeground": "#FF2255",
-        "notificationLink.foreground": "#FF2255",
         "editorLink.activeForeground": "#FF2255",
         "panelTitle.activeForeground": "#90E0FF",
-        "activityBar.foreground": "#90E0FF",
         "titleBar.activeForeground": "#90E0FF", // COLORED SAME AS MENU/WIDGET FG
-        "activityBar.inactiveForeground": "#5C809C",
-        "panelTitle.inactiveForeground": "#5C809C",
-        "titleBar.inactiveForeground": "#5C809C",
+        "panelTitle.inactiveForeground": "#505E77",
+        "titleBar.inactiveForeground": "#505E77",
         "minimapSlider.activeBackground": "#1DDDFF99",
-        "breadcrumb.foreground": "#5C809C",
+        "breadcrumb.foreground": "#505E77",
         "editorLineNumber.activeForeground": "#1DDDFF",
-        "editorLineNumber.foreground": "#5C809C", // #1DDDFF99
+        "editorLineNumber.foreground": "#505E77", // #1DDDFF99
         "sideBarTitle.foreground": "#FFFFFF",
         "list.focusOutline": "#FFAE11AA",
         "list.inactiveFocusOutline": "#FFAE11AA",
@@ -232,25 +267,10 @@
                       HOVER PROPERTIES
 *----------------------------------------------------------*/
         // TAB | Hover Bg
-        "tab.hoverBackground": "#10AEE044",
-        "tab.unfocusedHoverBackground": "#10AEE044",
-        "scrollbarSlider.hoverBackground": "#10AEE044",
-        "statusBarItem.compactHoverBackground": "#10AEE044",
-        "statusBarItem.hoverBackground": "#10AEE044",
-        "statusBarItem.prominentHoverBackground": "#10AEE070",
-        "minimapSlider.hoverBackground": "#10AEE044",
-        "list.hoverBackground": "#10AEE044",
-        "toolbar.hoverBackground": "#10AEE044",
-        "button.hoverBackground": "#10AEE044", // UNIQUE
-        "button.secondaryHoverBackground": "#10AEE044", // UNIQUE
-        "inputOption.hoverBackground": "#10AEE044",
-        "settings.rowHoverBackground": "#10AEE044",
-        "menubar.selectionBackground": "#10AEE044", // behaves like a "Hover Prop"
-        "notebook.cellHoverBackground": "#10AEE044",
-        "editorStickyScrollHover.background": "#00285E",
+        "menubar.selectionBackground": "#00FFA020", // behaves like a "Hover Prop"
         "editorStickyScroll.background": "#07030080",
         // TAB | Hover Bdr
-        "sash.hoverBorder": "#66EE33",
+        "sash.hoverBorder": "#50FF80",
         "tab.hoverBorder": "#0000",
         "tab.unfocusedHoverBorder": "#0000",
         "toolbar.hoverOutline": "#0000",
@@ -259,52 +279,48 @@
         "list.hoverForeground": "#FFFFFF",
         "tab.hoverForeground": "#FFFFFF",
         "tab.unfocusedHoverForeground": "#FFFFFF",
-        "editorHoverWidget.background": "#020D20",
         // ON_HOVER: Highlight-Bg
         "editorHoverWidget.highlightForeground": "#1DDDFF",
-        "editorHoverWidget.border": "#303030",
+        "editorHoverWidget.border": "#505E7740",
         "editorHoverWidget.foreground": "#BBBBBB",
+        "editorHoverWidget.background": "#020D20",
         "editorHoverWidget.statusBarBackground": "#0A0B0C",
-        "editor.hoverHighlightBackground": "#000000DD",
         // MISCELLANEOUS (Fold & Hover)
         "quickInput.foreground": "#D0D0D0",
-        "quickInputList.focusBackground": "#10AEE044",
+        "quickInputList.focusBackground": "#00FFA020",
         "quickInputList.focusForeground": "#EEEEEE",
-        "quickInputList.focusIconForeground": "#66EE33",
-        "pickerGroup.border": "#303030",
-        "sideBySideEditor.verticalBorder": "#303030",
+        "quickInputList.focusIconForeground": "#50FF80",
+        "pickerGroup.border": "#505E7740",
+        "sideBySideEditor.verticalBorder": "#505E7740",
         // Charcoal Backgrounds (unique)
         "titleBar.activeBackground": "#141312",
-        "textBlockQuote.background": "#12141A",
-        "editor.background": "#12141A",
+        "textBlockQuote.background": "#161B25",
+        "editor.background": "#161B25",
         "terminal.background": "#0F0E0D",
-        "editorOverviewRuler.background": "#12141A",
-        "sideBar.background": "#12141A",
-        "editorMarkerNavigation.background": "#081832",
-        "panel.background": "#081832",
-        "activityBar.background": "#081832",
+        "editorOverviewRuler.background": "#161B25",
+        "sideBar.background": "#161B25",
+        "editorMarkerNavigation.background": "#081C38",
+        "panel.background": "#081C38",
         // Menu & Widget Background Colors
-        "editorWidget.background": "#081832",
-        "editorSuggestWidget.background": "#081832",
-        "listFilterWidget.background": "#081832",
+        "editorWidget.background": "#081C38",
+        "editorSuggestWidget.background": "#081C38",
+        "listFilterWidget.background": "#081C38",
         "menu.background": "#001125EE",
         "breadcrumb.background": "#031B3C",
         // Inactive bar, widget, and menu backgrounds
         "titleBar.inactiveBackground": "#222120",
         // WELCOME PAGE
-        "welcomePage.tileHoverBackground": "#10AEE044",
         "welcomePage.tileShadow": "#080100",
         "welcomePage.tileBackground": "#FFFFFF0F",
         "welcomePage.progress.background": "#1DDDFF",
         "welcomePage.progress.foreground": "#EEEEEE",
-        "welcomePage.background": "#081832",
+        "welcomePage.background": "#081C38",
         /*---------------------------------------------------------------------*
                   WORKBENCH'S EMPHASIZED BACKGROUND
       *----------------------------------------------------------------------* */
-        "activityBarBadge.background": "#AA5500",
         "badge.background": "#AA5500",
-        "extensionBadge.remoteBackground": "#080C16",
-        "statusBar.background": "#080C16",
+        "extensionBadge.remoteBackground": "#003060",
+        "statusBar.background": "#031B3D",
         "keybindingLabel.background": "#000000",
         /*---------------------------------------*
        * PASTEL-CYAN: #70DCF8
@@ -323,8 +339,7 @@
    |> BLUE-GREEN: #1DDDFF
    *----------------------------------------*/
         "ports.iconRunningProcessForeground": "#1DDDFF",
-        "notificationCenterHeader.foreground": "#1DDDFF",
-        "progressBar.background": "#303030",
+        "progressBar.background": "#505E7740",
         "editor.wordHighlightStrongBorder": "#1DDDFF99",
         "peekViewEditor.matchHighlightBorder": "#1DDDFF99",
         "editorOverviewRuler.rangeHighlightForeground": "#1DDDFF99",
@@ -335,12 +350,11 @@
         "editor.lineHighlightBackground": "#EEEEEE08", // Unique
         "editorWhitespace.foreground": "#EEEEEE22",
         "statusBar.foreground": "#EEEEEE",
-        "list.deemphasizedForeground": "#5C809C",
-        "gitDecoration.ignoredResourceForeground": "#5C809C",
+        "list.deemphasizedForeground": "#505E77",
+        "gitDecoration.ignoredResourceForeground": "#505E77",
         "badge.foreground": "#BBDDFF",
-        "activityBarBadge.foreground": "#BBDDFF",
         "extensionBadge.remoteForeground": "#EEEEEE",
-        "scrollbarSlider.background": "#5C809C",
+        "scrollbarSlider.background": "#505E77",
         "scrollbarSlider.activeBackground": "#FFAE11AA",
         // |====================| WHITE: BBBBBB |====================|
         "foreground": "#BBBBBB",
@@ -351,7 +365,6 @@
         "terminal.foreground": "#BBBBBB",
         "textPreformat.foreground": "#CCCCCC",
         "pickerGroup.foreground": "#BBBBBB",
-        "activityBar.dropBorder": "#1DDDFF",
         "panel.dropBorder": "#1DDDFF",
         "terminal.dropBackground": "#1DDDFF66",
         "sideBar.dropBackground": "#1DDDFF66",
@@ -421,7 +434,7 @@
         "terminal.ansiBrightCyan": "#88EEEE",
         "terminal.ansiBrightMagenta": "#FF88CC",
         "terminal.ansiBrightGreen": "#88EE66",
-        "terminal.ansiBrightRed": "#FF343C",
+        "terminal.ansiBrightRed": "#FF2222",
         "terminal.ansiBrightYellow": "#EEFF88",
         "terminal.ansiBrightBlue": "#66CCFF",
         "terminal.ansiBrightBlack": "#303850",
@@ -441,10 +454,10 @@
    *----------------------------------------------------------------------*/
         // STATUS-BAR | DEBUGGER BAR
         "statusBar.debuggingBackground": "#041A30",
-        "statusBar.debuggingForeground": "#44FF88",
+        "statusBar.debuggingForeground": "#50FF80",
         // STATUS-BAR | NO-FOLDER BAR
         "statusBar.noFolderBackground": "#203040",
-        "statusBar.noFolderForeground": "#5C809C",
+        "statusBar.noFolderForeground": "#505E77",
         "statusBarItem.activeBackground": "#00BB77",
         "statusBarItem.remoteBackground": "#0C1224",
         "statusBarItem.remoteForeground": "#00FFCC",
@@ -506,7 +519,7 @@
         "settings.sashBorder": "#FFAE1177",
         "settings.focusedRowBackground": "#FFFF991D",
         "debugToolBar.background": "#000A20",
-        "debugConsoleInputIcon.foreground": "#00FF00",
+        "debugConsoleInputIcon.foreground": "#66FF88",
         /*
    *------------------------------------------------------------------------*
                      WIDGETS & INTERACTIVE ITEMS
@@ -518,28 +531,34 @@
         "editorSuggestWidget.focusHighlightForeground": "#00C2FF",
         "editorSuggestWidget.highlightForeground": "#1DDDFF",
         "editorSuggestWidget.selectedBackground": "#1DDDFF33",
-        "editorWidget.foreground": "#1DDDFF",
-        "editorWidget.border": "#303030",
-        "editorWidget.resizeBorder": "#303030",
-        "listFilterWidget.noMatchesOutline": "#FF343C",
-        "listFilterWidget.outline": "#007755",
-        "list.filterMatchBackground": "#ff0000",
-        "notifications.background": "#0D1E24E2",
-        "notificationCenterHeader.background": "#0D1E24E2",
+        "editorWidget.foreground": "#FFFFFF",
+        "editorWidget.border": "#505E7740",
+        "editorWidget.resizeBorder": "#505E7740",
+        "listFilterWidget.noMatchesOutline": "#FF2222",
+        "listFilterWidget.outline": "#50FF8088",
+        "list.filterMatchBackground": "#000000AA",
+        "notificationsErrorIcon.foreground": "#FF2222",
+        "notificationsWarningIcon.foreground": "#FFFF00",
+        "notificationsInfoIcon.foreground": "#50FF80",
+        "notifications.border": "#505E77",
+        "notificationLink.foreground": "#FF2255",
+        "notificationCenterHeader.foreground": "#FFFFFF",
+        "notifications.background": "#071225",
+        "notificationCenterHeader.background": "#10141E",
         "sideBarSectionHeader.foreground": "#3388CC",
         "panelSectionHeader.foreground": "#3388CC",
         // BREAK-POINT COLORING
         "debugIcon.breakpointForeground": "#FF3366",
         "debugIcon.disconnectForeground": "#FF3366",
-        "debugIcon.breakpointDisabledForeground": "#5C809C",
-        "debugIcon.breakpointUnverifiedForeground": "#5C809C",
-        "debugIcon.startForeground": "#44FF88",
-        "debugIcon.continueForeground": "#44FF88",
-        "debugIcon.restartForeground": "#44FF88",
+        "debugIcon.breakpointDisabledForeground": "#505E77",
+        "debugIcon.breakpointUnverifiedForeground": "#505E77",
+        "debugIcon.startForeground": "#50FF80",
+        "debugIcon.continueForeground": "#50FF80",
+        "debugIcon.restartForeground": "#50FF80",
         "debugIcon.stopForeground": "#FF3366",
         "debugIcon.pauseForeground": "#DDEE55",
-        "debugView.stateLabelBackground": "#44FF8820",
-        "debugView.stateLabelForeground": "#44FF88",
+        "debugView.stateLabelBackground": "#50FF8020",
+        "debugView.stateLabelForeground": "#50FF80",
         "debugView.exceptionLabelBackground": "#FF336624",
         "debugView.exceptionLabelForeground": "#FF3366",
         "debugView.valueChangedHighlight": "#004422",
@@ -554,7 +573,7 @@
         "debugIcon.stepOutForeground": "#1DDDFF",
         "debugIcon.stepBackForeground": "#1DDDFF",
         // LIST
-        "list.invalidItemForeground": "#FF343C",
+        "list.invalidItemForeground": "#FF2222",
         "list.highlightForeground": "#EEEEEE",
         "list.filterMatchBorder": "#119977",
         // Snippet Highlighting
@@ -586,7 +605,7 @@
         "editorBracketPairGuide.activeBackground2": "#0088FF",
         "editorBracketPairGuide.activeBackground4": "#0088FF",
         "editorBracketPairGuide.activeBackground6": "#0088FF",
-        "editorBracketHighlight.unexpectedBracket.foreground": "#FF343C",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#FF2222",
         /*---------------------------------------------------------------------*
                         SYMBOL ICONS
             (OUT OF SIGHT & OUT OF MIND FOR RN)
