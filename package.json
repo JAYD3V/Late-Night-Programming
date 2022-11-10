@@ -27,26 +27,31 @@
    "contributes": {
       "themes": [
          {
-            "label": "Late Night",
-            "id": "late-night",
+            "label": "NOCTURNAL | 2am",
+            "id": "nocturnal-2am",
             "uiTheme": "vs-dark",
-            "path": "./theme/late-night-vscode-theme.json"
+            "path": "./theme/nocturnal-2am-vscode-theme.json"
          },
          {
-            "label": "NOCTURNAL: BLUE",
-            "id": "nocturnal-blue",
+            "label": "NOCTURNAL | Insomniac",
+            "id": "nocturnal-insomniac",
             "uiTheme": "vs-dark",
-            "path": "./theme/nocturnal-blue-vscode-theme.json"
+            "path": "./theme/nocturnal-insomniac-vscode-theme.json"
          },
          {
-            "label": "NOCTURNAL: BLACK",
-            "id": "nocturnal-black",
+            "label": "NOCTURNAL | Northern Lights",
+            "id": "nocturnal-northern-lights",
             "uiTheme": "vs-dark",
-            "path": "./theme/nocturnal-black-vscode-theme.json"
+            "path": "./theme/nocturnal-northern-lights-vscode-theme.json"
+         },
+         {
+            "label": "NOCTURNAL | Zombie by Day; Dev by Night",
+            "id": "nocturnal-zombie-by-day-dev-by-night",
+            "uiTheme": "vs-dark",
+            "path": "./theme/nocturnal-zombie-by-day-dev-by-night-vscode-theme.json"
          }
       ]
    },
-   "devDependencies": {
 
-   }
+   "devDependencies": {}
 }
